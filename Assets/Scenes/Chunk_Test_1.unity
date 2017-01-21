@@ -509,7 +509,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4002997950410170, guid: 97e712e6aa24ec84cb2dbd2b88e83359, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 56
+      value: 55.88
       objectReference: {fileID: 0}
     - target: {fileID: 4002997950410170, guid: 97e712e6aa24ec84cb2dbd2b88e83359, type: 2}
       propertyPath: m_LocalPosition.y
@@ -555,7 +555,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4823652648153582, guid: 0b53851a81ccf3a44af87bc6e23f8141, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 75.9
+      value: 75.83
       objectReference: {fileID: 0}
     - target: {fileID: 4823652648153582, guid: 0b53851a81ccf3a44af87bc6e23f8141, type: 2}
       propertyPath: m_LocalPosition.y
@@ -1899,7 +1899,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4823652648153582, guid: 0b53851a81ccf3a44af87bc6e23f8141, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 67.9
+      value: 67.86
       objectReference: {fileID: 0}
     - target: {fileID: 4823652648153582, guid: 0b53851a81ccf3a44af87bc6e23f8141, type: 2}
       propertyPath: m_LocalPosition.y
@@ -1945,6 +1945,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1928210322}
   - component: {fileID: 1928210323}
+  - component: {fileID: 1928210324}
   m_Layer: 0
   m_Name: Managers
   m_TagString: Untagged
@@ -1974,6 +1975,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6b6493ebeafbdca429d48035fee637ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1928210324
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1928210321}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0ba7a9209c571e4f8dc7e74da19aab7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &2022544799
