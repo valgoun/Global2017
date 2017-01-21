@@ -36,6 +36,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4560653045704714}
   - component: {fileID: 114622443524415064}
+  - component: {fileID: 68162402287202996}
+  - component: {fileID: 68158200246815214}
   m_Layer: 0
   m_Name: SquareBlackBlock
   m_TagString: Untagged
@@ -52,7 +54,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4353188810556872}
   - component: {fileID: 212281270419024112}
-  - component: {fileID: 68139872668188494}
   m_Layer: 0
   m_Name: Graph
   m_TagString: Untagged
@@ -183,19 +184,19 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1051711237929780}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 24, y: 0, z: 0}
+  m_LocalPosition: {x: 95.7, y: -0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4059355074390896}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!68 &68139872668188494
+--- !u!68 &68158200246815214
 EdgeCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1149607420111220}
+  m_GameObject: {fileID: 1051711237929780}
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
@@ -204,10 +205,33 @@ EdgeCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   m_Points:
-  - {x: -0.50191903, y: -0.13038199}
-  - {x: -0.35164863, y: 0.15442173}
-  - {x: 0.3508613, y: 0.1540163}
-  - {x: 0.5, y: -0.12651093}
+  - {x: -7.978958, y: 1.8463669}
+  - {x: -7.1419373, y: 1.8417091}
+  - {x: -7.1093597, y: 4.841488}
+  - {x: 7.131912, y: 4.885933}
+  - {x: 7.1762543, y: 1.8212242}
+  - {x: 8.049072, y: 1.822998}
+--- !u!68 &68162402287202996
+EdgeCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1051711237929780}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_Points:
+  - {x: -8.002335, y: -1.8980646}
+  - {x: -4.1565094, y: -1.844574}
+  - {x: -4.160431, y: 1.1146364}
+  - {x: 0.050323486, y: 1.1387777}
+  - {x: 4.080017, y: 1.1433487}
+  - {x: 4.0755615, y: -1.8384485}
+  - {x: 7.979553, y: -1.8700242}
 --- !u!114 &114622443524415064
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -219,6 +243,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: afbf196c2bf91664bb99a487682d992d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _masks:
+  - {fileID: 333241602361810666}
+  - {fileID: 333288873889400218}
+  - {fileID: 333091991467484178}
+  _graph: {fileID: 212281270419024112}
 --- !u!212 &212281270419024112
 SpriteRenderer:
   m_ObjectHideFlags: 1

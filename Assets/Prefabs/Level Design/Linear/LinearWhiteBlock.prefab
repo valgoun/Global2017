@@ -52,6 +52,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4260804831188954}
   - component: {fileID: 114340002532254850}
+  - component: {fileID: 68459719956345834}
+  - component: {fileID: 68557711197982058}
   m_Layer: 0
   m_Name: LinearWhiteBlock
   m_TagString: Untagged
@@ -79,7 +81,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1172778820681442}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 112, y: 0, z: 0}
+  m_LocalPosition: {x: 347.98187, y: 10.263234, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4108517885581048}
@@ -100,6 +102,44 @@ Transform:
   m_Father: {fileID: 4260804831188954}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!68 &68459719956345834
+EdgeCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1172778820681442}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_Points:
+  - {x: -16.036835, y: -1.8907251}
+  - {x: -14.520691, y: -1.8888874}
+  - {x: -0.013641357, y: 0.8623867}
+  - {x: 14.415436, y: -1.8114481}
+  - {x: 16.036835, y: -1.8496218}
+--- !u!68 &68557711197982058
+EdgeCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1172778820681442}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_Points:
+  - {x: -16.077942, y: 1.767417}
+  - {x: -13.49353, y: 1.8636484}
+  - {x: 0.02822876, y: 5.020419}
+  - {x: 13.552582, y: 1.9289856}
+  - {x: 16.036835, y: 1.8907251}
 --- !u!114 &114340002532254850
 MonoBehaviour:
   m_ObjectHideFlags: 1

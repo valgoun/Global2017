@@ -83,7 +83,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4224486536089132}
   - component: {fileID: 212304511297110422}
-  - component: {fileID: 68403981368867934}
   m_Layer: 0
   m_Name: Graph
   m_TagString: Untagged
@@ -100,6 +99,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4726473059420632}
   - component: {fileID: 114001658284420210}
+  - component: {fileID: 68913024999267430}
+  - component: {fileID: 68693096830319654}
   m_Layer: 0
   m_Name: SquareWhiteBlock
   m_TagString: Untagged
@@ -170,7 +171,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1826978343521664}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 76, y: 0, z: 0}
+  m_LocalPosition: {x: 65.64, y: -0.01, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4569789361373650}
@@ -190,12 +191,12 @@ Transform:
   m_Father: {fileID: 4569789361373650}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!68 &68403981368867934
+--- !u!68 &68693096830319654
 EdgeCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1662485568885484}
+  m_GameObject: {fileID: 1826978343521664}
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
@@ -204,10 +205,34 @@ EdgeCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   m_Points:
-  - {x: -0.50191903, y: -0.13038199}
-  - {x: -0.35164863, y: 0.15442173}
-  - {x: 0.3508613, y: 0.1540163}
-  - {x: 0.5, y: -0.12651093}
+  - {x: -12.042198, y: 1.7621677}
+  - {x: -10.308334, y: 1.7560976}
+  - {x: -10.31131, y: 4.790234}
+  - {x: 3.6886673, y: 4.8897996}
+  - {x: 18.206116, y: 4.855637}
+  - {x: 18.291336, y: 1.8249066}
+  - {x: 20.015999, y: 1.806221}
+--- !u!68 &68913024999267430
+EdgeCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1826978343521664}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_Points:
+  - {x: -12.042198, y: -1.8943299}
+  - {x: -4.1454544, y: -1.8242686}
+  - {x: -4.1864433, y: 1.0599962}
+  - {x: 3.7769241, y: 1.1005945}
+  - {x: 12.171738, y: 1.1560531}
+  - {x: 12.185837, y: -1.8768404}
+  - {x: 19.971954, y: -1.8062217}
 --- !u!114 &114001658284420210
 MonoBehaviour:
   m_ObjectHideFlags: 1
