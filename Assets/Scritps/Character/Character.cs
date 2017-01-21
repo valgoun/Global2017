@@ -13,10 +13,23 @@ public enum WaveShape
 }
 public class Character : MonoBehaviour
 {
-    public float Speed = 6f;
+    public static Character Instance
+    {
+        get
+        {
+            if (_instance != null)
+                return _instance;
+            else
+            {
+                Debug.LogError("Character is not existant !");
+                return null;
+            }
+        }
+    }
     public float Bpm = 60;
     public float InputWindow = 0.5f;
     public float DoubleInputPrecision = 0.2f;
+    public float Amplitude = 3;
     public AnimationCurve SquareCurve;
     public RippleEffect Effect;
 
@@ -25,7 +38,18 @@ public class Character : MonoBehaviour
     private float _timeBeforeNextWindow;
     private WaveShape _nextShape;
     private Tween _movement;
-    private bool _shouldCreate = false;
+    private bool _shouldCreate = false, _rythm, _shape;
+    private static Character _instance;
+
+    /// <summary>
+    /// Awake is called when the script instance is being loaded.
+    /// </summary>
+    void Awake()
+    {
+        if (_instance != null)
+            Destroy(this.gameObject);
+        _instance = this;
+    }
 
     // Use this for initialization
     void Start()
@@ -33,7 +57,7 @@ public class Character : MonoBehaviour
         _spriteRenderer = GetComponent<SpriteRenderer>();
         _timeBeforeNextWindow = 30f / Bpm;
         _nextShape = WaveShape.Linear;
-        _movement = transform.DOMoveY(3, _timeBeforeNextWindow / 2).SetEase(Ease.InOutSine).SetLoops(2, LoopType.Yoyo).OnComplete(() => CreateTween());
+        //_movement = transform.DOMoveY(3, _timeBeforeNextWindow / 2).SetEase(Ease.InOutSine).SetLoops(2, LoopType.Yoyo).OnComplete(() => CreateTween());
         //transform.DOMoveX(8, 10).SetEase(Ease.Linear).SetLoops(-1, LoopType.Yoyo);
     }
 
@@ -49,9 +73,10 @@ public class Character : MonoBehaviour
             {
                 // Debug.Log("Croche");
                 _timeBeforeNextWindow = 30f / Bpm;
-                if (!_shouldCreate)
+                if (!_rythm)
                 {
                     _shouldCreate = true;
+					_rythm = true;
                     DOVirtual.DelayedCall(DoubleInputPrecision, () => CreateTween());
                 }
             }
@@ -59,9 +84,10 @@ public class Character : MonoBehaviour
             {
                 // Debug.Log("Noire");
                 _timeBeforeNextWindow = 60f / Bpm;
-                if (!_shouldCreate)
+                if (!_rythm)
                 {
                     _shouldCreate = true;
+					_rythm = true;
                     DOVirtual.DelayedCall(DoubleInputPrecision, () => CreateTween());
                 }
             }
@@ -69,9 +95,10 @@ public class Character : MonoBehaviour
             {
                 // Debug.Log("Triolet");
                 _timeBeforeNextWindow = 90f / Bpm;
-                if (!_shouldCreate)
+                if (!_rythm)
                 {
                     _shouldCreate = true;
+					_rythm = true;
                     DOVirtual.DelayedCall(DoubleInputPrecision, () => CreateTween());
                 }
             }
@@ -79,9 +106,10 @@ public class Character : MonoBehaviour
             {
                 // Debug.Log("Blanche");
                 _timeBeforeNextWindow = 120f / Bpm;
-                if (!_shouldCreate)
+                if (!_rythm)
                 {
                     _shouldCreate = true;
+					_rythm = true;
                     DOVirtual.DelayedCall(DoubleInputPrecision, () => CreateTween());
                 }
             }
@@ -90,7 +118,7 @@ public class Character : MonoBehaviour
             else if (Input.GetButtonDown("Sin"))
             {
                 _nextShape = WaveShape.Sin;
-                if (!_shouldCreate)
+                if (!_shape)
                 {
                     _shouldCreate = true;
                     DOVirtual.DelayedCall(DoubleInputPrecision, () => CreateTween());
@@ -99,7 +127,7 @@ public class Character : MonoBehaviour
             else if (Input.GetButtonDown("Linear"))
             {
                 _nextShape = WaveShape.Linear;
-                if (!_shouldCreate)
+                if (!_shape)
                 {
                     _shouldCreate = true;
                     DOVirtual.DelayedCall(DoubleInputPrecision, () => CreateTween());
@@ -108,7 +136,7 @@ public class Character : MonoBehaviour
             else if (Input.GetButtonDown("Square"))
             {
                 _nextShape = WaveShape.Square;
-                if (!_shouldCreate)
+                if (!_shape)
                 {
                     _shouldCreate = true;
                     DOVirtual.DelayedCall(DoubleInputPrecision, () => CreateTween());
@@ -122,7 +150,7 @@ public class Character : MonoBehaviour
 
     private void CreateTween()
     {
-        if (_shouldCreate && !_movement.IsPlaying())
+        if (_shouldCreate && (_movement == null || !_movement.IsPlaying()))
         {
             Vector2 pos = Camera.main.WorldToScreenPoint(transform.position);
             pos.x /= Screen.width;
@@ -131,18 +159,28 @@ public class Character : MonoBehaviour
             switch (_nextShape)
             {
                 case WaveShape.Linear:
-                    _movement = transform.DOMoveY(3, _timeBeforeNextWindow / 2).SetEase(Ease.Linear).SetLoops(2, LoopType.Yoyo).OnComplete(() => CreateTween());
+                    _movement = transform.DOMoveY(Amplitude, _timeBeforeNextWindow / 2 * 0.9f).SetEase(Ease.Linear).SetLoops(2, LoopType.Yoyo).OnComplete(() => CreateTween());
                     break;
                 case WaveShape.Sin:
-                    _movement = transform.DOMoveY(3, _timeBeforeNextWindow / 2).SetEase(Ease.InOutSine).SetLoops(2, LoopType.Yoyo).OnComplete(() => CreateTween());
+                    _movement = transform.DOMoveY(Amplitude, _timeBeforeNextWindow / 2 * 0.8f).SetEase(Ease.InOutSine).SetLoops(2, LoopType.Yoyo).OnComplete(() => CreateTween());
                     break;
                 case WaveShape.Square:
-                    _movement = transform.DOMoveY(3, _timeBeforeNextWindow / 2).SetEase(SquareCurve).SetLoops(2, LoopType.Yoyo).OnComplete(() => CreateTween());
+                    _movement = transform.DOMoveY(Amplitude, _timeBeforeNextWindow / 2 * 0.8f).SetEase(SquareCurve).SetLoops(2, LoopType.Yoyo).OnComplete(() => CreateTween());
                     break;
                 default:
                     break;
             }
             DOVirtual.DelayedCall(0.3f, () => _shouldCreate = false);
         }
+    }
+
+    /// <summary>
+    /// Sent when another object enters a trigger collider attached to this
+    /// object (2D physics only).
+    /// </summary>
+    /// <param name="other">The other Collider2D involved in this collision.</param>
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        // Debug.Log("caca");
     }
 }
