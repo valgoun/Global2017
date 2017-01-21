@@ -115,7 +115,7 @@ public class Character : MonoBehaviour
             }
 
             //Shape Input
-            else if (Input.GetButtonDown("Sin"))
+            else if (Input.GetAxis("Sin") < 0)
             {
                 _nextShape = WaveShape.Sin;
                 if (!_shape)
@@ -125,7 +125,7 @@ public class Character : MonoBehaviour
                     DOVirtual.DelayedCall(DoubleInputPrecision, () => CreateTween());
                 }
             }
-            else if (Input.GetButtonDown("Linear"))
+            else if (Input.GetAxis("Shape") > 0)
             {
                 _nextShape = WaveShape.Linear;
                 if (!_shape)
@@ -135,7 +135,7 @@ public class Character : MonoBehaviour
                     DOVirtual.DelayedCall(DoubleInputPrecision, () => CreateTween());
                 }
             }
-            else if (Input.GetButtonDown("Square"))
+            else if (Input.GetAxis("Shape") < 0)
             {
                 _nextShape = WaveShape.Square;
                 if (!_shape)

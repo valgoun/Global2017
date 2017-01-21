@@ -998,7 +998,7 @@ Prefab:
     - target: {fileID: 114591935354319556, guid: 75c3f708ad7cca34ba18127d55037997,
         type: 2}
       propertyPath: Bpm
-      value: 20
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 114591935354319556, guid: 75c3f708ad7cca34ba18127d55037997,
         type: 2}
