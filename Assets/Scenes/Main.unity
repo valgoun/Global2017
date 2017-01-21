@@ -206,6 +206,16 @@ Prefab:
       propertyPath: m_RootOrder
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 68644020113069260, guid: 8aac10f946a59d74894770e2e3b5fc74,
+        type: 2}
+      propertyPath: m_Points.Array.data[1].x
+      value: 15.996541
+      objectReference: {fileID: 0}
+    - target: {fileID: 68644020113069260, guid: 8aac10f946a59d74894770e2e3b5fc74,
+        type: 2}
+      propertyPath: m_Points.Array.data[1].y
+      value: -1.8612704
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8aac10f946a59d74894770e2e3b5fc74, type: 2}
   m_IsPrefabParent: 0
@@ -820,6 +830,31 @@ SpriteRenderer:
   m_PrefabParentObject: {fileID: 212281270419024112, guid: f4511e7a37c0ff64bbcd55de5cbe4a56,
     type: 2}
   m_PrefabInternal: {fileID: 17102637}
+--- !u!1 &1235483941 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1963238622587798, guid: bc9db240d16b69f4e995cf734c7302b8,
+    type: 2}
+  m_PrefabInternal: {fileID: 93398813}
+--- !u!68 &1235483942
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1235483941}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_Points:
+  - {x: -4.012226, y: 1.8539284}
+  - {x: -3.5631142, y: 1.8535688}
+  - {x: -3.5562916, y: 4.847314}
+  - {x: 3.562355, y: 4.8426437}
+  - {x: 3.5604343, y: 1.8559363}
+  - {x: 3.9446163, y: 1.85204}
 --- !u!1001 &1333011977
 Prefab:
   m_ObjectHideFlags: 0
