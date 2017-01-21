@@ -13,7 +13,7 @@ public class CheckpointsManager : MonoBehaviour
     }
 
     private static CheckpointsManager _instance;
-    private List<Checkpoint> _points;
+    public List<Checkpoint> _points;
 
     /// <summary>
     /// Awake is called when the script instance is being loaded.
@@ -28,9 +28,11 @@ public class CheckpointsManager : MonoBehaviour
         else
             _instance = this;
 
+
     }
     public void addCheckPoint(Checkpoint cp)
     {
+        return;
         if (_points == null)
         {
             _points = new List<Checkpoint>();
