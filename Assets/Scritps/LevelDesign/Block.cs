@@ -14,7 +14,6 @@ public class Block : MonoBehaviour
     void Start()
     {
         _left = _graph.bounds.extents.x;
-        Debug.Log(gameObject.name + " " + _left);
     }
 
     // Update is called once per frame
@@ -32,7 +31,6 @@ public class Block : MonoBehaviour
 
         if (transform.position.x < _left + Character.Instance.transform.position.x && !_active)
         {
-            Debug.Log("caca " + gameObject.name);
             Character.Instance.ChangeDirection(Mathf.Sign(transform.up.y));
             _active = true;
         }

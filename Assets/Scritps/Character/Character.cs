@@ -11,6 +11,14 @@ public enum WaveShape
     Linear,
     Square
 }
+
+public enum Rythm
+{
+    white,
+    Triolet,
+    Black,
+    Quaver
+}
 public class Character : MonoBehaviour
 {
     public static Character Instance
@@ -28,18 +36,18 @@ public class Character : MonoBehaviour
     }
     public float Bpm = 60;
     public float InputWindow = 0.5f;
-    public float DoubleInputPrecision = 0.2f;
     public float Amplitude = 3;
     public AnimationCurve SquareCurve;
     public RippleEffect Effect;
 
     private SpriteRenderer _spriteRenderer;
-    private bool _inputSensible = true;
     private float _timeBeforeNextWindow;
     private WaveShape _nextShape;
+    private Rythm _note;
     private Tween _movement;
-    private bool _shouldCreate = false, _rythm, _shape;
+    private bool _shouldCreate = false;
     private float _direction = 1.0f;
+    private Checkpoint _activeCheckpoint;
     private static Character _instance;
 
     /// <summary>
@@ -58,14 +66,13 @@ public class Character : MonoBehaviour
         _spriteRenderer = GetComponent<SpriteRenderer>();
         _timeBeforeNextWindow = 30f / Bpm;
         _nextShape = WaveShape.Linear;
-        //_movement = transform.DOMoveY(3, _timeBeforeNextWindow / 2).SetEase(Ease.InOutSine).SetLoops(2, LoopType.Yoyo).OnComplete(() => CreateTween());
-        //transform.DOMoveX(8, 10).SetEase(Ease.Linear).SetLoops(-1, LoopType.Yoyo);
+        _activeCheckpoint = CheckpointsManager.Instance.Pop();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Mathf.Abs(transform.position.y) < (3 * InputWindow) / _timeBeforeNextWindow)
+        if (Vector3.Distance(transform.position, _activeCheckpoint.transform.position) < InputWindow && transform.position.x < _activeCheckpoint.transform.position.x)
         {
             _spriteRenderer.color = Color.green;
 
@@ -74,115 +81,81 @@ public class Character : MonoBehaviour
             {
                 // Debug.Log("Croche");
                 _timeBeforeNextWindow = 30f / Bpm;
-                if (!_rythm)
-                {
-                    _shouldCreate = true;
-                    _rythm = true;
-                    DOVirtual.DelayedCall(DoubleInputPrecision, () => CreateTween());
-                }
+                _note = Rythm.Quaver;
+                _shouldCreate = true;
             }
             else if (Input.GetButtonDown("Noire"))
             {
                 // Debug.Log("Noire");
                 _timeBeforeNextWindow = 60f / Bpm;
-                if (!_rythm)
-                {
-                    _shouldCreate = true;
-                    _rythm = true;
-                    DOVirtual.DelayedCall(DoubleInputPrecision, () => CreateTween());
-                }
+                _note = Rythm.Black;
+                _shouldCreate = true;
             }
             else if (Input.GetButtonDown("Triolet"))
             {
-                // Debug.Log("Triolet");
+                Debug.Log("Triolet");
                 _timeBeforeNextWindow = 90f / Bpm;
-                if (!_rythm)
-                {
-                    _shouldCreate = true;
-                    _rythm = true;
-                    DOVirtual.DelayedCall(DoubleInputPrecision, () => CreateTween());
-                }
+                _note = Rythm.Triolet;
+                _shouldCreate = true;
             }
             else if (Input.GetButtonDown("Blanche"))
             {
                 // Debug.Log("Blanche");
                 _timeBeforeNextWindow = 120f / Bpm;
-                if (!_rythm)
-                {
-                    _shouldCreate = true;
-                    _rythm = true;
-                    DOVirtual.DelayedCall(DoubleInputPrecision, () => CreateTween());
-                }
+                _note = Rythm.white;
+                _shouldCreate = true;
             }
 
-            //Shape Input
-            else if (Input.GetAxis("Sin") < 0)
-            {
-                _nextShape = WaveShape.Sin;
-                if (!_shape)
-                {
-                    _shouldCreate = true;
-                    _shape = true;
-                    DOVirtual.DelayedCall(DoubleInputPrecision, () => CreateTween());
-                }
-            }
-            else if (Input.GetAxis("Shape") > 0)
-            {
-                _nextShape = WaveShape.Linear;
-                if (!_shape)
-                {
-                    _shouldCreate = true;
-                    _shape = true;
-                    DOVirtual.DelayedCall(DoubleInputPrecision, () => CreateTween());
-                }
-            }
-            else if (Input.GetAxis("Shape") < 0)
-            {
-                _nextShape = WaveShape.Square;
-                if (!_shape)
-                {
-                    _shouldCreate = true;
-                    _shape = true;
-                    DOVirtual.DelayedCall(DoubleInputPrecision, () => CreateTween());
-                }
-            }
         }
         else
             _spriteRenderer.color = Color.white;
-
-    }
-
-    private void CreateTween()
-    {
-        if (_shouldCreate && (_movement == null || !_movement.IsPlaying()))
+        if (transform.position.x >= _activeCheckpoint.transform.position.x && _shouldCreate)
         {
+            Debug.Log("dkljqsdkdj");
             Vector2 pos = Camera.main.WorldToScreenPoint(transform.position);
             pos.x /= Screen.width;
             pos.y /= Screen.height;
             Effect.Emit(pos);
-            switch (_nextShape)
-            {
-                case WaveShape.Linear:
-                    _movement = transform.DOMoveY(Amplitude * _direction, _timeBeforeNextWindow / 2 * 0.9f).SetEase(Ease.Linear).SetLoops(2, LoopType.Yoyo).OnComplete(() => CreateTween());
-                    break;
-                case WaveShape.Sin:
-                    _movement = transform.DOMoveY(Amplitude * _direction, _timeBeforeNextWindow / 2 * 0.8f).SetEase(Ease.InOutSine).SetLoops(2, LoopType.Yoyo).OnComplete(() => CreateTween());
-                    break;
-                case WaveShape.Square:
-                    _movement = transform.DOMoveY(Amplitude * _direction, _timeBeforeNextWindow / 2 * 0.8f).SetEase(SquareCurve).SetLoops(2, LoopType.Yoyo).OnComplete(() => CreateTween());
-                    break;
-                default:
-                    break;
-            }
-            DOVirtual.DelayedCall(0.3f, () =>
-            {
-                _shouldCreate = false;
-                _shape = false;
-                _rythm = false;
-            });
-        }
-    }
+            _shouldCreate = false;
 
+            if (_nextShape == _activeCheckpoint.Shape && _note == _activeCheckpoint.Note)
+            {
+                switch (_nextShape)
+                {
+                    case WaveShape.Linear:
+                        _movement = transform.DOMoveY(Amplitude * _direction, _timeBeforeNextWindow / 2 * 0.9f).SetEase(Ease.Linear).SetLoops(2, LoopType.Yoyo);
+                        break;
+                    case WaveShape.Sin:
+                        _movement = transform.DOMoveY(Amplitude * _direction, _timeBeforeNextWindow / 2 * 0.9f).SetEase(Ease.InOutSine).SetLoops(2, LoopType.Yoyo);
+                        break;
+                    case WaveShape.Square:
+                        _movement = transform.DOMoveY(Amplitude * _direction, _timeBeforeNextWindow / 2 * 0.7f).SetEase(SquareCurve).SetLoops(2, LoopType.Yoyo);
+                        break;
+                    default:
+                        break;
+                }
+                var p = CheckpointsManager.Instance.Pop();
+                if (p != null)
+                    _activeCheckpoint = p;
+            }
+
+        }
+
+        if (Input.GetAxis("Sin") < 0)
+        {
+            _nextShape = WaveShape.Sin;
+        }
+        else if (Input.GetAxis("Shape") > 0)
+        {
+            _nextShape = WaveShape.Linear;
+        }
+        else if (Input.GetAxis("Shape") < 0)
+        {
+            _nextShape = WaveShape.Square;
+        }
+
+
+    }
     /// <summary>
     /// Sent when another object enters a trigger collider attached to this
     /// object (2D physics only).
