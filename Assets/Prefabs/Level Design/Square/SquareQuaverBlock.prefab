@@ -190,6 +190,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: afbf196c2bf91664bb99a487682d992d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _masks:
+  - {fileID: 333636368560660224}
+  - {fileID: 333925924341239924}
+  - {fileID: 333124827535502394}
+  _graph: {fileID: 212664608748803572}
 --- !u!212 &212664608748803572
 SpriteRenderer:
   m_ObjectHideFlags: 1

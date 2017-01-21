@@ -76,7 +76,7 @@ public class Character : MonoBehaviour
                 if (!_rythm)
                 {
                     _shouldCreate = true;
-					_rythm = true;
+                    _rythm = true;
                     DOVirtual.DelayedCall(DoubleInputPrecision, () => CreateTween());
                 }
             }
@@ -87,7 +87,7 @@ public class Character : MonoBehaviour
                 if (!_rythm)
                 {
                     _shouldCreate = true;
-					_rythm = true;
+                    _rythm = true;
                     DOVirtual.DelayedCall(DoubleInputPrecision, () => CreateTween());
                 }
             }
@@ -98,7 +98,7 @@ public class Character : MonoBehaviour
                 if (!_rythm)
                 {
                     _shouldCreate = true;
-					_rythm = true;
+                    _rythm = true;
                     DOVirtual.DelayedCall(DoubleInputPrecision, () => CreateTween());
                 }
             }
@@ -109,7 +109,7 @@ public class Character : MonoBehaviour
                 if (!_rythm)
                 {
                     _shouldCreate = true;
-					_rythm = true;
+                    _rythm = true;
                     DOVirtual.DelayedCall(DoubleInputPrecision, () => CreateTween());
                 }
             }
@@ -121,6 +121,7 @@ public class Character : MonoBehaviour
                 if (!_shape)
                 {
                     _shouldCreate = true;
+                    _shape = true;
                     DOVirtual.DelayedCall(DoubleInputPrecision, () => CreateTween());
                 }
             }
@@ -130,6 +131,7 @@ public class Character : MonoBehaviour
                 if (!_shape)
                 {
                     _shouldCreate = true;
+                    _shape = true;
                     DOVirtual.DelayedCall(DoubleInputPrecision, () => CreateTween());
                 }
             }
@@ -139,6 +141,7 @@ public class Character : MonoBehaviour
                 if (!_shape)
                 {
                     _shouldCreate = true;
+                    _shape = true;
                     DOVirtual.DelayedCall(DoubleInputPrecision, () => CreateTween());
                 }
             }
@@ -170,7 +173,12 @@ public class Character : MonoBehaviour
                 default:
                     break;
             }
-            DOVirtual.DelayedCall(0.3f, () => _shouldCreate = false);
+            DOVirtual.DelayedCall(0.3f, () =>
+            {
+                _shouldCreate = false;
+                _shape = false;
+                _rythm = false;
+            });
         }
     }
 
