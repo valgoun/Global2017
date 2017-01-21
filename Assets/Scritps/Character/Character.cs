@@ -39,6 +39,7 @@ public class Character : MonoBehaviour
     private WaveShape _nextShape;
     private Tween _movement;
     private bool _shouldCreate = false, _rythm, _shape;
+    private float _direction = 1.0f;
     private static Character _instance;
 
     /// <summary>
@@ -162,13 +163,13 @@ public class Character : MonoBehaviour
             switch (_nextShape)
             {
                 case WaveShape.Linear:
-                    _movement = transform.DOMoveY(Amplitude, _timeBeforeNextWindow / 2 * 0.9f).SetEase(Ease.Linear).SetLoops(2, LoopType.Yoyo).OnComplete(() => CreateTween());
+                    _movement = transform.DOMoveY(Amplitude * _direction, _timeBeforeNextWindow / 2 * 0.9f).SetEase(Ease.Linear).SetLoops(2, LoopType.Yoyo).OnComplete(() => CreateTween());
                     break;
                 case WaveShape.Sin:
-                    _movement = transform.DOMoveY(Amplitude, _timeBeforeNextWindow / 2 * 0.8f).SetEase(Ease.InOutSine).SetLoops(2, LoopType.Yoyo).OnComplete(() => CreateTween());
+                    _movement = transform.DOMoveY(Amplitude * _direction, _timeBeforeNextWindow / 2 * 0.8f).SetEase(Ease.InOutSine).SetLoops(2, LoopType.Yoyo).OnComplete(() => CreateTween());
                     break;
                 case WaveShape.Square:
-                    _movement = transform.DOMoveY(Amplitude, _timeBeforeNextWindow / 2 * 0.8f).SetEase(SquareCurve).SetLoops(2, LoopType.Yoyo).OnComplete(() => CreateTween());
+                    _movement = transform.DOMoveY(Amplitude * _direction, _timeBeforeNextWindow / 2 * 0.8f).SetEase(SquareCurve).SetLoops(2, LoopType.Yoyo).OnComplete(() => CreateTween());
                     break;
                 default:
                     break;
@@ -190,5 +191,10 @@ public class Character : MonoBehaviour
     void OnTriggerEnter2D(Collider2D other)
     {
         // Debug.Log("caca");
+    }
+
+    public void ChangeDirection(float direction)
+    {
+        _direction = direction;
     }
 }

@@ -8,10 +8,13 @@ public class Block : MonoBehaviour
     public List<SpriteMaskRenderer> _masks;
     public SpriteRenderer _graph;
     private bool _onScreen = false;
+    private float _left;
+    private bool _active = false;
     // Use this for initialization
     void Start()
     {
-
+        _left = _graph.bounds.extents.x;
+        Debug.Log(gameObject.name + " " + _left);
     }
 
     // Update is called once per frame
@@ -25,6 +28,13 @@ public class Block : MonoBehaviour
         else if (_onScreen && transform.position.x < -32.5f)
         {
             MaskManager.Instance.Subscribe(this);
+        }
+
+        if (transform.position.x < _left + Character.Instance.transform.position.x && !_active)
+        {
+            Debug.Log("caca " + gameObject.name);
+            Character.Instance.ChangeDirection(Mathf.Sign(transform.up.y));
+            _active = true;
         }
     }
 
