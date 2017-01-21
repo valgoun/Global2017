@@ -18,6 +18,7 @@ public class Character : MonoBehaviour
     public float InputWindow = 0.5f;
     public float DoubleInputPrecision = 0.2f;
     public AnimationCurve SquareCurve;
+    public RippleEffect Effect;
 
     private SpriteRenderer _spriteRenderer;
     private bool _inputSensible = true;
@@ -33,6 +34,7 @@ public class Character : MonoBehaviour
         _timeBeforeNextWindow = 30f / Bpm;
         _nextShape = WaveShape.Linear;
         _movement = transform.DOMoveY(3, _timeBeforeNextWindow / 2).SetEase(Ease.InOutSine).SetLoops(2, LoopType.Yoyo).OnComplete(() => CreateTween());
+        //transform.DOMoveX(8, 10).SetEase(Ease.Linear).SetLoops(-1, LoopType.Yoyo);
     }
 
     // Update is called once per frame
@@ -87,7 +89,6 @@ public class Character : MonoBehaviour
             //Shape Input
             else if (Input.GetButtonDown("Sin"))
             {
-                Debug.Log("Sin");
                 _nextShape = WaveShape.Sin;
                 if (!_shouldCreate)
                 {
@@ -97,7 +98,6 @@ public class Character : MonoBehaviour
             }
             else if (Input.GetButtonDown("Linear"))
             {
-                Debug.Log("Linear");
                 _nextShape = WaveShape.Linear;
                 if (!_shouldCreate)
                 {
@@ -107,7 +107,6 @@ public class Character : MonoBehaviour
             }
             else if (Input.GetButtonDown("Square"))
             {
-                Debug.Log("Square");
                 _nextShape = WaveShape.Square;
                 if (!_shouldCreate)
                 {
@@ -123,8 +122,12 @@ public class Character : MonoBehaviour
 
     private void CreateTween()
     {
-        if (_shouldCreate)
+        if (_shouldCreate && !_movement.IsPlaying())
         {
+            Vector2 pos = Camera.main.WorldToScreenPoint(transform.position);
+            pos.x /= Screen.width;
+            pos.y /= Screen.height;
+            Effect.Emit(pos);
             switch (_nextShape)
             {
                 case WaveShape.Linear:
@@ -139,7 +142,7 @@ public class Character : MonoBehaviour
                 default:
                     break;
             }
-            _shouldCreate = false;
+            DOVirtual.DelayedCall(0.3f, () => _shouldCreate = false);
         }
     }
 }
