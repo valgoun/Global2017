@@ -86,6 +86,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4391037600982218}
   - component: {fileID: 212585427753613664}
+  - component: {fileID: 114928531930950890}
   m_Layer: 0
   m_Name: asset-bouton_32
   m_TagString: Untagged
@@ -224,8 +225,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1374628269930880}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 48, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 78.969734, y: -2.4132648, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4996013783121242}
@@ -322,6 +323,17 @@ MonoBehaviour:
   - {fileID: 333700537095218064}
   - {fileID: 333285070467090096}
   _graph: {fileID: 212949043004288060}
+--- !u!114 &114928531930950890
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1703665187771028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ad1d9e391a26684298a36577118edf4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!212 &212585427753613664
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -354,7 +366,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300012, guid: 9402f2cdbcefd7a4dbb531c7b29bdc32, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2b616d0d6b1950a4695f22b0c3406c86, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

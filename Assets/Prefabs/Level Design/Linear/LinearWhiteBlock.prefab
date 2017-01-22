@@ -86,6 +86,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4055255338428832}
   - component: {fileID: 212388484572837312}
+  - component: {fileID: 114850132797736158}
   m_Layer: 0
   m_Name: asset bouton b_33
   m_TagString: Untagged
@@ -125,8 +126,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1172778820681442}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 111.65, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 142.61974, y: -2.4132648, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4108517885581048}
@@ -227,6 +228,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Shape: 1
   Note: 0
+--- !u!114 &114850132797736158
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1820463861301644}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ad1d9e391a26684298a36577118edf4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!212 &212388484572837312
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -259,7 +271,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300062, guid: 9402f2cdbcefd7a4dbb531c7b29bdc32, type: 3}
+  m_Sprite: {fileID: 21300012, guid: 2b616d0d6b1950a4695f22b0c3406c86, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

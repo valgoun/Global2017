@@ -60,7 +60,7 @@ public class TransitionManager : MonoBehaviour
                 _current.Pause();
                 RedMusic.Play();
                 _current = RedMusic;
-                Poow.PlayOneShot(PowClip);
+                Poow.PlayOneShot(PowClip, 1.2f);
                 break;
             case Rythm.white:
                 desactivate(NeutralBG);
@@ -80,7 +80,7 @@ public class TransitionManager : MonoBehaviour
                 _current.Pause();
                 BlueMusic.Play();
                 _current = BlueMusic;
-                Poow.PlayOneShot(PowClip);
+                Poow.PlayOneShot(PowClip, 1.2f);
                 break;
             case Rythm.Black:
                 desactivate(NeutralBG);
@@ -100,7 +100,7 @@ public class TransitionManager : MonoBehaviour
                 _current.Pause();
                 PurpleMusic.Play();
                 _current = PurpleMusic;
-                Poow.PlayOneShot(PowClip);
+                Poow.PlayOneShot(PowClip, 1.2f);
                 break;
             case Rythm.Triolet:
                 desactivate(NeutralBG);
@@ -120,7 +120,7 @@ public class TransitionManager : MonoBehaviour
                 _current.Pause();
                 GreenMusic.Play();
                 _current = GreenMusic;
-                Poow.PlayOneShot(PowClip);
+                Poow.PlayOneShot(PowClip, 1.2f);
                 break;
             default:
                 break;
