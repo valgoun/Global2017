@@ -16,7 +16,7 @@ public class MaskManager : MonoBehaviour
 
 
 
-    private List<Block> _blocks;
+    private bool _one = true;
 
     /// <summary>
     /// Awake is called when the script instance is being loaded.
@@ -34,35 +34,21 @@ public class MaskManager : MonoBehaviour
     }
 
 
-
-    // Use this for initialization
-    void Start()
+    public int getMaskId()
     {
-        _blocks = new List<Block>();
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
-
-
-    public void Subscribe(Block b)
-    {
-        _blocks.Add(b);
-        int n = _blocks.Count;
-        b.SetLayers(2 * (n - 1), 2 * (n - 1) + 1);
-    }
-
-    public void Unuscribe(Block b)
-    {
-        _blocks.Remove(b);
-        int n = 0;
-        foreach (var bl in _blocks)
+        if (_one)
         {
-            bl.SetLayers(2 * n, 2 * n + 1);
-            n++;
+            _one = false;
+            return 1;
+        }
+        else
+        {
+            _one = true;
+            return 0;
         }
     }
+
+
+
+
 }

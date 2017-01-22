@@ -17,7 +17,8 @@ public enum Rythm
     white,
     Triolet,
     Black,
-    Quaver
+    Quaver,
+    Neutral
 }
 public class Character : MonoBehaviour
 {
@@ -39,11 +40,9 @@ public class Character : MonoBehaviour
     public float Amplitude = 3;
     public AnimationCurve SquareCurve;
     public RippleEffect Effect;
-
-    private SpriteRenderer _spriteRenderer;
     private float _timeBeforeNextWindow;
     private WaveShape _nextShape;
-    private Rythm _note;
+    private Rythm _note, _actualNote;
     private Tween _movement;
     private bool _shouldCreate = false;
     private float _direction = 1.0f;
@@ -63,9 +62,9 @@ public class Character : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        _spriteRenderer = GetComponent<SpriteRenderer>();
         _timeBeforeNextWindow = 30f / Bpm;
         _nextShape = WaveShape.Linear;
+        _actualNote = Rythm.Neutral;
         _activeCheckpoint = CheckpointsManager.Instance.Pop();
     }
 
@@ -74,7 +73,6 @@ public class Character : MonoBehaviour
     {
         if (Vector3.Distance(transform.position, _activeCheckpoint.transform.position) < InputWindow && transform.position.x < _activeCheckpoint.transform.position.x)
         {
-            _spriteRenderer.color = Color.green;
 
             //frequence inputs
             if (Input.GetButtonDown("Croche"))
@@ -106,37 +104,48 @@ public class Character : MonoBehaviour
                 _shouldCreate = true;
             }
 
-        }
-        else
-            _spriteRenderer.color = Color.white;
-        if (transform.position.x >= _activeCheckpoint.transform.position.x && _shouldCreate)
+        };
+        if (transform.position.x >= _activeCheckpoint.transform.position.x)
         {
-            Debug.Log("dkljqsdkdj");
-            Vector2 pos = Camera.main.WorldToScreenPoint(transform.position);
-            pos.x /= Screen.width;
-            pos.y /= Screen.height;
-            Effect.Emit(pos);
-            _shouldCreate = false;
-
-            if (_nextShape == _activeCheckpoint.Shape && _note == _activeCheckpoint.Note)
+            if (_shouldCreate)
             {
-                switch (_nextShape)
+                Vector2 pos = Camera.main.WorldToScreenPoint(transform.position);
+                pos.x /= Screen.width;
+                pos.y /= Screen.height;
+                Effect.Emit(pos);
+                _shouldCreate = false;
+
+                if (_nextShape == _activeCheckpoint.Shape && _note == _activeCheckpoint.Note)
                 {
-                    case WaveShape.Linear:
-                        _movement = transform.DOMoveY(Amplitude * _direction, _timeBeforeNextWindow / 2 * 0.9f).SetEase(Ease.Linear).SetLoops(2, LoopType.Yoyo);
-                        break;
-                    case WaveShape.Sin:
-                        _movement = transform.DOMoveY(Amplitude * _direction, _timeBeforeNextWindow / 2 * 0.9f).SetEase(Ease.InOutSine).SetLoops(2, LoopType.Yoyo);
-                        break;
-                    case WaveShape.Square:
-                        _movement = transform.DOMoveY(Amplitude * _direction, _timeBeforeNextWindow / 2 * 0.7f).SetEase(SquareCurve).SetLoops(2, LoopType.Yoyo);
-                        break;
-                    default:
-                        break;
+                    switch (_nextShape)
+                    {
+                        case WaveShape.Linear:
+                            _movement = transform.DOMoveY(Amplitude * _activeCheckpoint.transform.up.y, _timeBeforeNextWindow / 2 * 0.9f).SetEase(Ease.Linear).SetLoops(2, LoopType.Yoyo);
+                            break;
+                        case WaveShape.Sin:
+                            _movement = transform.DOMoveY(Amplitude * _activeCheckpoint.transform.up.y, _timeBeforeNextWindow / 2 * 0.9f).SetEase(Ease.InOutSine).SetLoops(2, LoopType.Yoyo);
+                            break;
+                        case WaveShape.Square:
+                            _movement = transform.DOMoveY(Amplitude * _activeCheckpoint.transform.up.y, _timeBeforeNextWindow / 2 * 0.7f).SetEase(SquareCurve).SetLoops(2, LoopType.Yoyo);
+                            break;
+                        default:
+                            break;
+                    }
+                    if (_note != _actualNote)
+                        TransitionManager.Instance.GoTo(_note);
+                    var p = CheckpointsManager.Instance.Pop();
+                    if (p != null)
+                        _activeCheckpoint = p;
                 }
-                var p = CheckpointsManager.Instance.Pop();
-                if (p != null)
-                    _activeCheckpoint = p;
+            }
+            else
+            {
+                for (int i = 0; i < 4; i++)
+                {
+                    var t = transform.GetChild(i);
+                    if (t.gameObject.activeInHierarchy)
+                        t.GetComponent<Animator>().SetTrigger("Death");
+                }
             }
 
         }
@@ -163,7 +172,7 @@ public class Character : MonoBehaviour
     /// <param name="other">The other Collider2D involved in this collision.</param>
     void OnTriggerEnter2D(Collider2D other)
     {
-        // Debug.Log("caca");
+        //Debug.Log("caca");
     }
 
     public void ChangeDirection(float direction)

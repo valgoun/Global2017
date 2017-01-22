@@ -1,0 +1,2252 @@
+fileFormatVersion: 2
+guid: 988c64159b95d7a48862314cd0615df8
+timeCreated: 1485058158
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: asset-bouton_0
+    21300002: asset-bouton_1
+    21300004: asset-bouton_2
+    21300006: asset-bouton_3
+    21300008: asset-bouton_4
+    21300010: asset-bouton_5
+    21300012: asset-bouton_6
+    21300014: asset-bouton_7
+    21300016: asset-bouton_8
+    21300018: asset-bouton_9
+    21300020: asset-bouton_10
+    21300022: asset-bouton_11
+    21300024: asset-bouton_12
+    21300026: asset-bouton_13
+    21300028: asset-bouton_14
+    21300030: asset-bouton_15
+    21300032: asset-bouton_16
+    21300034: asset-bouton_17
+    21300036: asset-bouton_18
+    21300038: asset-bouton_19
+    21300040: asset-bouton_20
+    21300042: asset-bouton_21
+    21300044: asset-bouton_22
+    21300046: asset-bouton_23
+    21300048: asset-bouton_24
+    21300050: asset-bouton_25
+    21300052: asset-bouton_26
+    21300054: asset-bouton_27
+    21300056: asset-bouton_28
+    21300058: asset-bouton_29
+    21300060: asset-bouton_30
+    21300062: asset-bouton_31
+    21300064: asset-bouton_32
+    21300066: asset-bouton_33
+    21300068: asset-bouton_34
+    21300070: asset-bouton_35
+    21300072: asset-bouton_36
+    21300074: asset-bouton_37
+    21300076: asset-bouton_38
+    21300078: asset-bouton_39
+    21300080: asset-bouton_40
+    21300082: asset-bouton_41
+    21300084: asset-bouton_42
+    21300086: asset-bouton_43
+    21300088: asset-bouton_44
+    21300090: asset-bouton_45
+    21300092: asset-bouton_46
+    21300094: asset-bouton_47
+    21300096: asset-bouton_48
+    21300098: asset-bouton_49
+    21300100: asset-bouton_50
+    21300102: asset-bouton_51
+    21300104: asset-bouton_52
+    21300106: asset-bouton_53
+    21300108: asset-bouton_54
+    21300110: asset-bouton_55
+    21300112: asset-bouton_56
+    21300114: asset-bouton_57
+    21300116: asset-bouton_58
+    21300118: asset-bouton_59
+    21300120: asset-bouton_60
+    21300122: asset-bouton_61
+    21300124: asset-bouton_62
+    21300126: asset-bouton_64
+    21300128: asset-bouton_65
+    21300130: asset-bouton_66
+    21300132: asset-bouton_67
+    21300134: asset-bouton_68
+    21300136: asset-bouton_69
+    21300138: asset-bouton_70
+    21300140: asset-bouton_71
+    21300142: asset-bouton_74
+    21300144: asset-bouton_76
+    21300146: asset-bouton_77
+    21300148: asset-bouton_78
+    21300150: asset-bouton_79
+    21300152: asset-bouton_80
+    21300154: asset-bouton_81
+    21300156: asset-bouton_82
+    21300158: asset-bouton_83
+    21300160: asset-bouton_84
+    21300162: asset-bouton_85
+    21300164: asset-bouton_86
+    21300166: asset-bouton_87
+    21300168: asset-bouton_88
+    21300170: asset-bouton_89
+    21300172: asset-bouton_90
+    21300174: asset-bouton_91
+    21300176: asset-bouton_92
+    21300178: asset-bouton_93
+    21300180: asset-bouton_94
+    21300182: asset-bouton_95
+    21300184: asset-bouton_96
+    21300186: asset-bouton_97
+    21300188: asset-bouton_98
+    21300190: asset-bouton_99
+    21300192: asset-bouton_100
+    21300194: asset-bouton_101
+    21300196: asset-bouton_102
+    21300198: asset-bouton_103
+    21300200: asset-bouton_104
+    21300202: asset-bouton_105
+    21300204: asset-bouton_106
+    21300206: asset-bouton_107
+    21300208: asset-bouton_108
+    21300210: asset-bouton_109
+    21300212: asset-bouton_110
+    21300214: asset-bouton_111
+    21300216: asset-bouton_112
+    21300218: asset-bouton_113
+    21300220: asset-bouton_114
+    21300222: asset-bouton_115
+    21300224: asset-bouton_116
+    21300226: asset-bouton_117
+    21300228: asset-bouton_118
+    21300230: asset-bouton_119
+    21300232: asset-bouton_120
+    21300234: asset-bouton_121
+    21300236: asset-bouton_122
+    21300238: asset-bouton_123
+    21300240: asset-bouton_124
+    21300242: asset-bouton_125
+    21300244: asset-bouton_126
+    21300246: asset-bouton_127
+    21300248: asset-bouton_128
+    21300250: asset-bouton_129
+    21300252: asset-bouton_130
+    21300254: asset-bouton_131
+    21300256: asset-bouton_132
+    21300258: asset-bouton_133
+    21300260: asset-bouton_134
+    21300262: asset-bouton_135
+    21300264: asset-bouton_136
+    21300266: asset-bouton_137
+    21300268: asset-bouton_138
+    21300270: asset-bouton_139
+    21300272: asset-bouton_140
+    21300274: asset-bouton_141
+    21300276: asset-bouton_142
+    21300278: asset-bouton_143
+    21300280: asset-bouton_144
+    21300282: asset-bouton_145
+    21300284: asset-bouton_146
+    21300286: asset-bouton_147
+    21300288: asset-bouton_148
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 72
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 4096
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: asset-bouton_0
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 3822
+        width: 191
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_1
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 3798
+        width: 217
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_2
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 3822
+        width: 191
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_3
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 3798
+        width: 225
+        height: 237
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_4
+      rect:
+        serializedVersion: 2
+        x: 1321
+        y: 3822
+        width: 191
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_5
+      rect:
+        serializedVersion: 2
+        x: 1557
+        y: 3798
+        width: 236
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_6
+      rect:
+        serializedVersion: 2
+        x: 1958
+        y: 3822
+        width: 191
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_7
+      rect:
+        serializedVersion: 2
+        x: 2202
+        y: 3798
+        width: 228
+        height: 239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_8
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 3772
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_9
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 3772
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_10
+      rect:
+        serializedVersion: 2
+        x: 1692
+        y: 3772
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_11
+      rect:
+        serializedVersion: 2
+        x: 2329
+        y: 3772
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_12
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 3755
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_13
+      rect:
+        serializedVersion: 2
+        x: 1403
+        y: 3749
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_14
+      rect:
+        serializedVersion: 2
+        x: 1557
+        y: 3512
+        width: 236
+        height: 237
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_15
+      rect:
+        serializedVersion: 2
+        x: 2016
+        y: 3741
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_16
+      rect:
+        serializedVersion: 2
+        x: 2202
+        y: 3516
+        width: 228
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_17
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 3529
+        width: 191
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_18
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 3520
+        width: 217
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_19
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 3529
+        width: 191
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_20
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 3516
+        width: 225
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_21
+      rect:
+        serializedVersion: 2
+        x: 1321
+        y: 3529
+        width: 191
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_22
+      rect:
+        serializedVersion: 2
+        x: 1958
+        y: 3529
+        width: 191
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_23
+      rect:
+        serializedVersion: 2
+        x: 2646
+        y: 3719
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_24
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 3469
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_25
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 3469
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_26
+      rect:
+        serializedVersion: 2
+        x: 1557
+        y: 3233
+        width: 236
+        height: 244
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_27
+      rect:
+        serializedVersion: 2
+        x: 2329
+        y: 3469
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_28
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 3240
+        width: 217
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_29
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 3454
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_30
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 3237
+        width: 225
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_31
+      rect:
+        serializedVersion: 2
+        x: 1403
+        y: 3448
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_32
+      rect:
+        serializedVersion: 2
+        x: 2202
+        y: 3236
+        width: 228
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_33
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 3249
+        width: 191
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_34
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 3249
+        width: 191
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_35
+      rect:
+        serializedVersion: 2
+        x: 1321
+        y: 3249
+        width: 191
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_36
+      rect:
+        serializedVersion: 2
+        x: 1958
+        y: 3249
+        width: 191
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_37
+      rect:
+        serializedVersion: 2
+        x: 2646
+        y: 3426
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_38
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 3178
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_39
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 3178
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_40
+      rect:
+        serializedVersion: 2
+        x: 1557
+        y: 2941
+        width: 236
+        height: 245
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_41
+      rect:
+        serializedVersion: 2
+        x: 2329
+        y: 3178
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_42
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 2949
+        width: 217
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_43
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 3162
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_44
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 2945
+        width: 225
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_45
+      rect:
+        serializedVersion: 2
+        x: 1403
+        y: 3156
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_46
+      rect:
+        serializedVersion: 2
+        x: 2202
+        y: 2945
+        width: 228
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_47
+      rect:
+        serializedVersion: 2
+        x: 2646
+        y: 3155
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_48
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 2958
+        width: 191
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_49
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 2958
+        width: 191
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_50
+      rect:
+        serializedVersion: 2
+        x: 1321
+        y: 2958
+        width: 191
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_51
+      rect:
+        serializedVersion: 2
+        x: 1958
+        y: 2958
+        width: 191
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_52
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 2906
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_53
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 2906
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_54
+      rect:
+        serializedVersion: 2
+        x: 1692
+        y: 2906
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_55
+      rect:
+        serializedVersion: 2
+        x: 2329
+        y: 2906
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_56
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 2891
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_57
+      rect:
+        serializedVersion: 2
+        x: 1403
+        y: 2885
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_58
+      rect:
+        serializedVersion: 2
+        x: 2646
+        y: 2883
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_59
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 2601
+        width: 297
+        height: 279
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_60
+      rect:
+        serializedVersion: 2
+        x: 2016
+        y: 2877
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_61
+      rect:
+        serializedVersion: 2
+        x: 2136
+        y: 2600
+        width: 305
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_62
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 2628
+        width: 254
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_64
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 2628
+        width: 254
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_65
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 2600
+        width: 304
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_66
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 2588
+        width: 33
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_67
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 2628
+        width: 254
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_68
+      rect:
+        serializedVersion: 2
+        x: 1558
+        y: 2600
+        width: 304
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_69
+      rect:
+        serializedVersion: 2
+        x: 1853
+        y: 2588
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_70
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 2628
+        width: 254
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_71
+      rect:
+        serializedVersion: 2
+        x: 2433
+        y: 2588
+        width: 33
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_74
+      rect:
+        serializedVersion: 2
+        x: 1233
+        y: 2560
+        width: 12
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_76
+      rect:
+        serializedVersion: 2
+        x: 1854
+        y: 2556
+        width: 12
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_77
+      rect:
+        serializedVersion: 2
+        x: 2433
+        y: 2554
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_78
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 2301
+        width: 254
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_79
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 2273
+        width: 306
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_80
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 2275
+        width: 6
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_81
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 2301
+        width: 254
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_82
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 2281
+        width: 293
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_83
+      rect:
+        serializedVersion: 2
+        x: 1235
+        y: 2272
+        width: 29
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_84
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 2301
+        width: 254
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_85
+      rect:
+        serializedVersion: 2
+        x: 1558
+        y: 2273
+        width: 304
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_86
+      rect:
+        serializedVersion: 2
+        x: 1853
+        y: 2257
+        width: 33
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_87
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 2301
+        width: 254
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_88
+      rect:
+        serializedVersion: 2
+        x: 2136
+        y: 2273
+        width: 305
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_89
+      rect:
+        serializedVersion: 2
+        x: 2433
+        y: 2255
+        width: 33
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_90
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 2254
+        width: 27
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_91
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 2273
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_92
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 2257
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_93
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 2002
+        width: 254
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_94
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 1974
+        width: 306
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_95
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 1955
+        width: 33
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_96
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 2002
+        width: 254
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_97
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 1974
+        width: 304
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_98
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1958
+        width: 33
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_99
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 2002
+        width: 254
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_100
+      rect:
+        serializedVersion: 2
+        x: 1558
+        y: 1974
+        width: 304
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_101
+      rect:
+        serializedVersion: 2
+        x: 1853
+        y: 1958
+        width: 33
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_102
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 2002
+        width: 254
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_103
+      rect:
+        serializedVersion: 2
+        x: 2136
+        y: 1974
+        width: 305
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_104
+      rect:
+        serializedVersion: 2
+        x: 2433
+        y: 1957
+        width: 33
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_105
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1703
+        width: 254
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_106
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 1675
+        width: 306
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_107
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 1656
+        width: 33
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_108
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 1703
+        width: 254
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_109
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 1675
+        width: 304
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_110
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1659
+        width: 33
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_111
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 1703
+        width: 254
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_112
+      rect:
+        serializedVersion: 2
+        x: 1558
+        y: 1675
+        width: 304
+        height: 277
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_113
+      rect:
+        serializedVersion: 2
+        x: 1853
+        y: 1659
+        width: 33
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_114
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 1703
+        width: 254
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_115
+      rect:
+        serializedVersion: 2
+        x: 2136
+        y: 1675
+        width: 305
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_116
+      rect:
+        serializedVersion: 2
+        x: 2433
+        y: 1658
+        width: 33
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_117
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1351
+        width: 242
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_118
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 1322
+        width: 299
+        height: 299
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_119
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 1351
+        width: 242
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_120
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 1331
+        width: 290
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_121
+      rect:
+        serializedVersion: 2
+        x: 1327
+        y: 1351
+        width: 242
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_122
+      rect:
+        serializedVersion: 2
+        x: 1594
+        y: 1327
+        width: 290
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_123
+      rect:
+        serializedVersion: 2
+        x: 1910
+        y: 1351
+        width: 242
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_124
+      rect:
+        serializedVersion: 2
+        x: 2172
+        y: 1327
+        width: 295
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_125
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1009
+        width: 242
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_126
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 980
+        width: 299
+        height: 299
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_127
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 1009
+        width: 242
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_128
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 989
+        width: 290
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_129
+      rect:
+        serializedVersion: 2
+        x: 1327
+        y: 1009
+        width: 242
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_130
+      rect:
+        serializedVersion: 2
+        x: 1594
+        y: 985
+        width: 290
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_131
+      rect:
+        serializedVersion: 2
+        x: 1910
+        y: 1009
+        width: 242
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_132
+      rect:
+        serializedVersion: 2
+        x: 2172
+        y: 985
+        width: 295
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_133
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 667
+        width: 242
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_134
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 638
+        width: 299
+        height: 299
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_135
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 667
+        width: 242
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_136
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 647
+        width: 290
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_137
+      rect:
+        serializedVersion: 2
+        x: 1327
+        y: 667
+        width: 242
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_138
+      rect:
+        serializedVersion: 2
+        x: 1594
+        y: 643
+        width: 290
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_139
+      rect:
+        serializedVersion: 2
+        x: 1910
+        y: 667
+        width: 242
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_140
+      rect:
+        serializedVersion: 2
+        x: 2172
+        y: 643
+        width: 295
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_141
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 337
+        width: 242
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_142
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 308
+        width: 299
+        height: 299
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_143
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 337
+        width: 242
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_144
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 317
+        width: 290
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_145
+      rect:
+        serializedVersion: 2
+        x: 1327
+        y: 337
+        width: 242
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_146
+      rect:
+        serializedVersion: 2
+        x: 1594
+        y: 313
+        width: 290
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_147
+      rect:
+        serializedVersion: 2
+        x: 1910
+        y: 337
+        width: 242
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset-bouton_148
+      rect:
+        serializedVersion: 2
+        x: 2172
+        y: 313
+        width: 295
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

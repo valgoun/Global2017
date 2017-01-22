@@ -1,0 +1,1670 @@
+fileFormatVersion: 2
+guid: 9402f2cdbcefd7a4dbb531c7b29bdc32
+timeCreated: 1485075162
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: asset bouton b_0
+    21300002: asset bouton b_1
+    21300004: asset bouton b_2
+    21300006: asset bouton b_3
+    21300008: asset bouton b_4
+    21300010: asset bouton b_5
+    21300012: asset bouton b_6
+    21300014: asset bouton b_7
+    21300016: asset bouton b_8
+    21300018: asset bouton b_9
+    21300020: asset bouton b_10
+    21300022: asset bouton b_11
+    21300024: asset bouton b_12
+    21300026: asset bouton b_13
+    21300028: asset bouton b_14
+    21300030: asset bouton b_15
+    21300032: asset bouton b_16
+    21300034: asset bouton b_17
+    21300036: asset bouton b_18
+    21300038: asset bouton b_19
+    21300040: asset bouton b_20
+    21300042: asset bouton b_21
+    21300044: asset bouton b_22
+    21300046: asset bouton b_23
+    21300048: asset bouton b_24
+    21300050: asset bouton b_25
+    21300052: asset bouton b_26
+    21300054: asset bouton b_27
+    21300056: asset bouton b_28
+    21300058: asset bouton b_29
+    21300060: asset bouton b_30
+    21300062: asset bouton b_31
+    21300064: asset bouton b_32
+    21300066: asset bouton b_33
+    21300068: asset bouton b_34
+    21300070: asset bouton b_35
+    21300072: asset bouton b_36
+    21300074: asset bouton b_37
+    21300076: asset bouton b_38
+    21300078: asset bouton b_39
+    21300080: asset bouton b_40
+    21300082: asset bouton b_41
+    21300084: asset bouton b_42
+    21300086: asset bouton b_43
+    21300088: asset bouton b_44
+    21300090: asset bouton b_45
+    21300092: asset bouton b_46
+    21300094: asset bouton b_47
+    21300096: asset bouton b_48
+    21300098: asset bouton b_49
+    21300100: asset bouton b_50
+    21300102: asset bouton b_51
+    21300104: asset bouton b_52
+    21300106: asset bouton b_53
+    21300108: asset bouton b_54
+    21300110: asset bouton b_55
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: asset bouton b_0
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 3819
+        width: 196
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset bouton b_1
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 3811
+        width: 222
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset bouton b_2
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 3819
+        width: 196
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset bouton b_3
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 3807
+        width: 230
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset bouton b_4
+      rect:
+        serializedVersion: 2
+        x: 1319
+        y: 3819
+        width: 196
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset bouton b_5
+      rect:
+        serializedVersion: 2
+        x: 1555
+        y: 3795
+        width: 240
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset bouton b_6
+      rect:
+        serializedVersion: 2
+        x: 1955
+        y: 3819
+        width: 196
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset bouton b_7
+      rect:
+        serializedVersion: 2
+        x: 2199
+        y: 3807
+        width: 234
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset bouton b_8
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 3795
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset bouton b_9
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 3795
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset bouton b_10
+      rect:
+        serializedVersion: 2
+        x: 2329
+        y: 3795
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset bouton b_11
+      rect:
+        serializedVersion: 2
+        x: 2643
+        y: 3717
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset bouton b_12
+      rect:
+        serializedVersion: 2
+        x: 2644
+        y: 3425
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset bouton b_13
+      rect:
+        serializedVersion: 2
+        x: 2645
+        y: 3153
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset bouton b_14
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 2955
+        width: 194
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset bouton b_15
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 2947
+        width: 221
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset bouton b_16
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 2955
+        width: 194
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset bouton b_17
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 2943
+        width: 229
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset bouton b_18
+      rect:
+        serializedVersion: 2
+        x: 1319
+        y: 2955
+        width: 196
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset bouton b_19
+      rect:
+        serializedVersion: 2
+        x: 1555
+        y: 2939
+        width: 240
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset bouton b_20
+      rect:
+        serializedVersion: 2
+        x: 1955
+        y: 2955
+        width: 196
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset bouton b_21
+      rect:
+        serializedVersion: 2
+        x: 2199
+        y: 2943
+        width: 234
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset bouton b_22
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 2905
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset bouton b_23
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 2905
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset bouton b_24
+      rect:
+        serializedVersion: 2
+        x: 1691
+        y: 2905
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset bouton b_25
+      rect:
+        serializedVersion: 2
+        x: 2327
+        y: 2905
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset bouton b_26
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 2889
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset bouton b_27
+      rect:
+        serializedVersion: 2
+        x: 1401
+        y: 2883
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset bouton b_28
+      rect:
+        serializedVersion: 2
+        x: 2644
+        y: 2881
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset bouton b_29
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 2601
+        width: 302
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset bouton b_30
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 2601
+        width: 308
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset bouton b_31
+      rect:
+        serializedVersion: 2
+        x: 1557
+        y: 2601
+        width: 308
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset bouton b_32
+      rect:
+        serializedVersion: 2
+        x: 2015
+        y: 2875
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset bouton b_33
+      rect:
+        serializedVersion: 2
+        x: 2135
+        y: 2601
+        width: 308
+        height: 278
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset bouton b_34
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 2625
+        width: 260
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset bouton b_35
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 2601
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset bouton b_36
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 2601
+        width: 12
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset bouton b_37
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 2625
+        width: 260
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset bouton b_38
+      rect:
+        serializedVersion: 2
+        x: 1233
+        y: 2601
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset bouton b_39
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 2625
+        width: 260
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset bouton b_40
+      rect:
+        serializedVersion: 2
+        x: 1863
+        y: 2601
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset bouton b_41
+      rect:
+        serializedVersion: 2
+        x: 1887
+        y: 2625
+        width: 260
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset bouton b_42
+      rect:
+        serializedVersion: 2
+        x: 2443
+        y: 2601
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset bouton b_43
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 2601
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset bouton b_44
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 1653
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset bouton b_45
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 1657
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset bouton b_46
+      rect:
+        serializedVersion: 2
+        x: 1851
+        y: 1657
+        width: 26
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset bouton b_47
+      rect:
+        serializedVersion: 2
+        x: 2431
+        y: 1655
+        width: 26
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset bouton b_48
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 1349
+        width: 248
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset bouton b_49
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 1319
+        width: 304
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset bouton b_50
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 1349
+        width: 246
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset bouton b_51
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 1329
+        width: 296
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset bouton b_52
+      rect:
+        serializedVersion: 2
+        x: 1325
+        y: 1349
+        width: 246
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset bouton b_53
+      rect:
+        serializedVersion: 2
+        x: 1591
+        y: 1325
+        width: 296
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset bouton b_54
+      rect:
+        serializedVersion: 2
+        x: 1907
+        y: 1349
+        width: 248
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: asset bouton b_55
+      rect:
+        serializedVersion: 2
+        x: 2169
+        y: 1325
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline:
+    - - {x: -1694, y: -422}
+      - {x: -1716, y: -496}
+      - {x: -1716, y: -688}
+      - {x: -1676, y: -732}
+      - {x: -1438, y: -732}
+      - {x: -1406, y: -724}
+      - {x: -1406, y: -438}
+      - {x: -1462, y: -422}
+    - - {x: -226, y: -426}
+      - {x: -378, y: -426}
+      - {x: -422, y: -434}
+      - {x: -460, y: -462}
+      - {x: -460, y: -702}
+      - {x: -370, y: -726}
+      - {x: -190, y: -726}
+      - {x: -182, y: -722}
+      - {x: -158, y: -644}
+      - {x: -158, y: -494}
+    - - {x: 382, y: -432}
+      - {x: 330, y: -420}
+      - {x: 200, y: -420}
+      - {x: 118, y: -496}
+      - {x: 118, y: -690}
+      - {x: 182, y: -726}
+      - {x: 388, y: -726}
+      - {x: 412, y: -694}
+      - {x: 424, y: -632}
+      - {x: 424, y: -488}
+    - - {x: -892, y: -422}
+      - {x: -1072, y: -422}
+      - {x: -1122, y: -500}
+      - {x: -1122, y: -650}
+      - {x: -1040, y: -722}
+      - {x: -888, y: -722}
+      - {x: -820, y: -656}
+      - {x: -820, y: -510}
+      - {x: -860, y: -432}
+    - - {x: -1960, y: -450}
+      - {x: -1974, y: -484}
+      - {x: -1974, y: -666}
+      - {x: -1906, y: -702}
+      - {x: -1772, y: -702}
+      - {x: -1720, y: -650}
+      - {x: -1720, y: -496}
+      - {x: -1734, y: -450}
+    - - {x: -1350, y: -450}
+      - {x: -1386, y: -520}
+      - {x: -1386, y: -664}
+      - {x: -1338, y: -702}
+      - {x: -1158, y: -702}
+      - {x: -1134, y: -630}
+      - {x: -1134, y: -500}
+      - {x: -1176, y: -450}
+    - - {x: -536, y: -450}
+      - {x: -646, y: -450}
+      - {x: -690, y: -460}
+      - {x: -726, y: -484}
+      - {x: -726, y: -648}
+      - {x: -692, y: -702}
+      - {x: -524, y: -702}
+      - {x: -510, y: -694}
+      - {x: -474, y: -642}
+      - {x: -474, y: -524}
+      - {x: -480, y: -486}
+    - - {x: -94, y: -450}
+      - {x: -144, y: -526}
+      - {x: -144, y: -642}
+      - {x: -86, y: -702}
+      - {x: 92, y: -702}
+      - {x: 110, y: -644}
+      - {x: 110, y: -482}
+      - {x: 56, y: -450}
+    - - {x: -1418, y: -370}
+      - {x: -1428, y: -382}
+      - {x: -1428, y: -394}
+      - {x: -1420, y: -398}
+      - {x: -1406, y: -398}
+      - {x: -1394, y: -380}
+      - {x: -1394, y: -370}
+    - - {x: 388, y: -370}
+      - {x: 380, y: -374}
+      - {x: 380, y: -388}
+      - {x: 384, y: -396}
+      - {x: 402, y: -396}
+      - {x: 412, y: -380}
+      - {x: 412, y: -370}
+    - - {x: -844, y: -370}
+      - {x: -852, y: -378}
+      - {x: -852, y: -388}
+      - {x: -846, y: -394}
+      - {x: -838, y: -394}
+      - {x: -822, y: -378}
+      - {x: -822, y: -374}
+      - {x: -826, y: -370}
+    - - {x: -196, y: -370}
+      - {x: -200, y: -374}
+      - {x: -200, y: -384}
+      - {x: -196, y: -394}
+      - {x: -180, y: -394}
+      - {x: -168, y: -378}
+      - {x: -168, y: -370}
+    - - {x: -1716, y: 572}
+      - {x: -1726, y: 568}
+      - {x: -1726, y: 554}
+      - {x: -1722, y: 550}
+      - {x: -1710, y: 550}
+      - {x: -1706, y: 554}
+      - {x: -1706, y: 572}
+    - - {x: -1564, y: 836}
+      - {x: -1572, y: 828}
+      - {x: -1706, y: 576}
+      - {x: -1706, y: 550}
+      - {x: -1534, y: 550}
+      - {x: -1398, y: 560}
+      - {x: -1398, y: 616}
+      - {x: -1536, y: 836}
+    - - {x: -1380, y: 584}
+      - {x: -1390, y: 584}
+      - {x: -1404, y: 558}
+      - {x: -1404, y: 552}
+      - {x: -1400, y: 550}
+      - {x: -1382, y: 550}
+      - {x: -1378, y: 554}
+      - {x: -1378, y: 582}
+    - - {x: -1288, y: 816}
+      - {x: -1378, y: 604}
+      - {x: -1378, y: 550}
+      - {x: -1278, y: 550}
+      - {x: -1118, y: 570}
+      - {x: -1106, y: 588}
+      - {x: -1106, y: 608}
+      - {x: -1222, y: 816}
+    - - {x: -968, y: 834}
+      - {x: -982, y: 830}
+      - {x: -1124, y: 570}
+      - {x: -1124, y: 550}
+      - {x: -960, y: 550}
+      - {x: -822, y: 558}
+      - {x: -810, y: 576}
+      - {x: -810, y: 602}
+      - {x: -936, y: 834}
+    - - {x: -800, y: 590}
+      - {x: -804, y: 588}
+      - {x: -818, y: 564}
+      - {x: -818, y: 554}
+      - {x: -816, y: 550}
+      - {x: -794, y: 550}
+      - {x: -786, y: 560}
+      - {x: -786, y: 580}
+      - {x: -790, y: 590}
+    - - {x: -350, y: 834}
+      - {x: -352, y: 832}
+      - {x: -494, y: 562}
+      - {x: -494, y: 550}
+      - {x: -290, y: 550}
+      - {x: -180, y: 562}
+      - {x: -180, y: 618}
+      - {x: -316, y: 834}
+    - - {x: 398, y: 564}
+      - {x: 398, y: 600}
+      - {x: 268, y: 830}
+      - {x: 256, y: 834}
+      - {x: -28, y: 834}
+      - {x: -188, y: 746}
+      - {x: -188, y: 552}
+      - {x: -184, y: 550}
+      - {x: -164, y: 550}
+      - {x: -152, y: 568}
+      - {x: -14, y: 550}
+      - {x: 270, y: 550}
+    - - {x: 408, y: 588}
+      - {x: 392, y: 564}
+      - {x: 392, y: 554}
+      - {x: 394, y: 550}
+      - {x: 416, y: 550}
+      - {x: 424, y: 560}
+      - {x: 424, y: 578}
+      - {x: 420, y: 588}
+    - - {x: -1854, y: 816}
+      - {x: -1974, y: 614}
+      - {x: -1974, y: 592}
+      - {x: -1964, y: 574}
+      - {x: -1722, y: 574}
+      - {x: -1708, y: 576}
+      - {x: -1708, y: 614}
+      - {x: -1818, y: 816}
+    - - {x: -742, y: 602}
+      - {x: -742, y: 578}
+      - {x: -738, y: 574}
+      - {x: -476, y: 574}
+      - {x: -476, y: 622}
+      - {x: -582, y: 816}
+      - {x: -620, y: 816}
+      - {x: -636, y: 806}
+    - - {x: -28, y: 844}
+      - {x: -36, y: 838}
+      - {x: -36, y: 826}
+      - {x: -30, y: 824}
+      - {x: -20, y: 824}
+      - {x: -18, y: 828}
+      - {x: -16, y: 836}
+      - {x: -22, y: 844}
+    - - {x: 602, y: 850}
+      - {x: 592, y: 846}
+      - {x: 592, y: 838}
+      - {x: 598, y: 830}
+      - {x: 606, y: 830}
+      - {x: 612, y: 836}
+      - {x: 612, y: 844}
+      - {x: 608, y: 850}
+    - - {x: -644, y: 850}
+      - {x: -650, y: 844}
+      - {x: -650, y: 838}
+      - {x: -644, y: 832}
+      - {x: -638, y: 832}
+      - {x: -630, y: 840}
+      - {x: -630, y: 844}
+      - {x: -636, y: 850}
+    - - {x: -1232, y: 856}
+      - {x: -1238, y: 850}
+      - {x: -1238, y: 842}
+      - {x: -1234, y: 838}
+      - {x: -1226, y: 838}
+      - {x: -1220, y: 844}
+      - {x: -1220, y: 852}
+      - {x: -1224, y: 856}
+    - - {x: -1558, y: 872}
+      - {x: -1568, y: 868}
+      - {x: -1568, y: 860}
+      - {x: -1562, y: 854}
+      - {x: -1552, y: 854}
+      - {x: -1548, y: 862}
+      - {x: -1548, y: 866}
+      - {x: -1552, y: 872}
+    - - {x: -956, y: 872}
+      - {x: -962, y: 864}
+      - {x: -962, y: 854}
+      - {x: -948, y: 854}
+      - {x: -944, y: 856}
+      - {x: -944, y: 868}
+      - {x: -952, y: 872}
+    - - {x: -354, y: 872}
+      - {x: -360, y: 864}
+      - {x: -360, y: 854}
+      - {x: -346, y: 854}
+      - {x: -342, y: 856}
+      - {x: -342, y: 868}
+      - {x: -350, y: 872}
+    - - {x: 284, y: 872}
+      - {x: 276, y: 868}
+      - {x: 276, y: 860}
+      - {x: 280, y: 854}
+      - {x: 288, y: 854}
+      - {x: 294, y: 860}
+      - {x: 294, y: 866}
+      - {x: 290, y: 872}
+    - - {x: -496, y: 926}
+      - {x: -496, y: 888}
+      - {x: -254, y: 888}
+      - {x: -250, y: 898}
+      - {x: -250, y: 920}
+      - {x: -254, y: 926}
+    - - {x: -1088, y: 892}
+      - {x: -852, y: 892}
+      - {x: -852, y: 926}
+      - {x: -1086, y: 926}
+      - {x: -1088, y: 912}
+    - - {x: 148, y: 926}
+      - {x: 148, y: 892}
+      - {x: 386, y: 892}
+      - {x: 388, y: 902}
+      - {x: 388, y: 920}
+      - {x: 382, y: 926}
+    - - {x: -1684, y: 896}
+      - {x: -1456, y: 896}
+      - {x: -1456, y: 926}
+      - {x: -1682, y: 926}
+      - {x: -1684, y: 920}
+    - - {x: -1938, y: 926}
+      - {x: -1938, y: 908}
+      - {x: -1930, y: 904}
+      - {x: -1742, y: 904}
+      - {x: -1738, y: 914}
+      - {x: -1738, y: 924}
+      - {x: -1746, y: 926}
+    - - {x: -1332, y: 926}
+      - {x: -1334, y: 922}
+      - {x: -1334, y: 910}
+      - {x: -1326, y: 904}
+      - {x: -1138, y: 904}
+      - {x: -1134, y: 912}
+      - {x: -1134, y: 924}
+      - {x: -1150, y: 926}
+    - - {x: -530, y: 904}
+      - {x: -530, y: 926}
+      - {x: -732, y: 926}
+      - {x: -732, y: 904}
+    - - {x: -90, y: 926}
+      - {x: -96, y: 922}
+      - {x: -96, y: 904}
+      - {x: 106, y: 904}
+      - {x: 106, y: 922}
+      - {x: 104, y: 926}
+    - - {x: 600, y: 1120}
+      - {x: 594, y: 1114}
+      - {x: 594, y: 1106}
+      - {x: 598, y: 1102}
+      - {x: 606, y: 1102}
+      - {x: 612, y: 1108}
+      - {x: 612, y: 1116}
+      - {x: 608, y: 1120}
+    - - {x: 600, y: 1392}
+      - {x: 592, y: 1384}
+      - {x: 592, y: 1380}
+      - {x: 598, y: 1374}
+      - {x: 606, y: 1374}
+      - {x: 612, y: 1380}
+      - {x: 612, y: 1388}
+      - {x: 608, y: 1392}
+    - - {x: 602, y: 1686}
+      - {x: 592, y: 1682}
+      - {x: 592, y: 1674}
+      - {x: 598, y: 1666}
+      - {x: 606, y: 1666}
+      - {x: 612, y: 1672}
+      - {x: 612, y: 1680}
+      - {x: 608, y: 1686}
+    - - {x: -1562, y: 1758}
+      - {x: -1566, y: 1754}
+      - {x: -1566, y: 1750}
+      - {x: -1560, y: 1744}
+      - {x: -1556, y: 1744}
+      - {x: -1550, y: 1750}
+      - {x: -1550, y: 1752}
+      - {x: -1556, y: 1758}
+    - - {x: -852, y: 1992}
+      - {x: -1088, y: 1992}
+      - {x: -1088, y: 1756}
+      - {x: -1028, y: 1744}
+      - {x: -896, y: 1744}
+      - {x: -864, y: 1756}
+      - {x: -852, y: 1766}
+    - - {x: -492, y: 2000}
+      - {x: -496, y: 1998}
+      - {x: -496, y: 1744}
+      - {x: -250, y: 1744}
+      - {x: -250, y: 2000}
+    - - {x: 148, y: 1994}
+      - {x: 148, y: 1756}
+      - {x: 196, y: 1744}
+      - {x: 370, y: 1744}
+      - {x: 388, y: 1750}
+      - {x: 388, y: 1994}
+    - - {x: -1684, y: 1988}
+      - {x: -1684, y: 1762}
+      - {x: -1676, y: 1760}
+      - {x: -1468, y: 1760}
+      - {x: -1456, y: 1768}
+      - {x: -1456, y: 1978}
+      - {x: -1464, y: 1988}
+    - - {x: -1932, y: 1970}
+      - {x: -1936, y: 1968}
+      - {x: -1938, y: 1962}
+      - {x: -1938, y: 1776}
+      - {x: -1930, y: 1768}
+      - {x: -1748, y: 1768}
+      - {x: -1736, y: 1778}
+      - {x: -1736, y: 1962}
+      - {x: -1744, y: 1970}
+    - - {x: -1334, y: 1970}
+      - {x: -1334, y: 1768}
+      - {x: -1144, y: 1768}
+      - {x: -1132, y: 1778}
+      - {x: -1132, y: 1962}
+      - {x: -1140, y: 1970}
+    - - {x: -732, y: 1970}
+      - {x: -732, y: 1768}
+      - {x: -542, y: 1768}
+      - {x: -530, y: 1778}
+      - {x: -530, y: 1962}
+      - {x: -538, y: 1970}
+    - - {x: -88, y: 1970}
+      - {x: -96, y: 1962}
+      - {x: -96, y: 1778}
+      - {x: -86, y: 1768}
+      - {x: 94, y: 1768}
+      - {x: 106, y: 1776}
+      - {x: 106, y: 1964}
+      - {x: 100, y: 1970}
+    physicsShape:
+    - - {x: -1414, y: -626}
+      - {x: -1408, y: -592}
+      - {x: -1408, y: -550}
+      - {x: -1418, y: -522}
+      - {x: -1438, y: -484}
+      - {x: -1466, y: -450}
+      - {x: -1520, y: -424}
+      - {x: -1594, y: -424}
+      - {x: -1630, y: -438}
+      - {x: -1658, y: -456}
+      - {x: -1684, y: -480}
+      - {x: -1702, y: -508}
+      - {x: -1714, y: -544}
+      - {x: -1714, y: -610}
+      - {x: -1706, y: -636}
+      - {x: -1688, y: -670}
+      - {x: -1644, y: -710}
+      - {x: -1618, y: -722}
+      - {x: -1590, y: -730}
+      - {x: -1540, y: -730}
+      - {x: -1510, y: -724}
+      - {x: -1484, y: -712}
+      - {x: -1440, y: -674}
+      - {x: -1426, y: -654}
+    - - {x: -170, y: -634}
+      - {x: -162, y: -612}
+      - {x: -160, y: -580}
+      - {x: -160, y: -562}
+      - {x: -166, y: -534}
+      - {x: -180, y: -500}
+      - {x: -192, y: -478}
+      - {x: -238, y: -442}
+      - {x: -258, y: -436}
+      - {x: -276, y: -428}
+      - {x: -334, y: -428}
+      - {x: -348, y: -432}
+      - {x: -372, y: -438}
+      - {x: -404, y: -458}
+      - {x: -432, y: -488}
+      - {x: -456, y: -538}
+      - {x: -458, y: -558}
+      - {x: -458, y: -604}
+      - {x: -450, y: -632}
+      - {x: -426, y: -672}
+      - {x: -396, y: -698}
+      - {x: -368, y: -716}
+      - {x: -334, y: -724}
+      - {x: -282, y: -724}
+      - {x: -246, y: -714}
+      - {x: -222, y: -698}
+      - {x: -192, y: -672}
+    - - {x: 416, y: -626}
+      - {x: 422, y: -596}
+      - {x: 422, y: -546}
+      - {x: 412, y: -510}
+      - {x: 396, y: -486}
+      - {x: 366, y: -452}
+      - {x: 328, y: -430}
+      - {x: 298, y: -422}
+      - {x: 256, y: -422}
+      - {x: 236, y: -426}
+      - {x: 206, y: -434}
+      - {x: 170, y: -458}
+      - {x: 142, y: -490}
+      - {x: 122, y: -538}
+      - {x: 120, y: -550}
+      - {x: 120, y: -606}
+      - {x: 142, y: -662}
+      - {x: 196, y: -708}
+      - {x: 230, y: -722}
+      - {x: 240, y: -724}
+      - {x: 304, y: -724}
+      - {x: 328, y: -714}
+      - {x: 364, y: -700}
+      - {x: 404, y: -652}
+    - - {x: -826, y: -614}
+      - {x: -822, y: -590}
+      - {x: -822, y: -548}
+      - {x: -834, y: -514}
+      - {x: -846, y: -490}
+      - {x: -872, y: -460}
+      - {x: -890, y: -444}
+      - {x: -930, y: -426}
+      - {x: -942, y: -424}
+      - {x: -994, y: -424}
+      - {x: -1012, y: -426}
+      - {x: -1046, y: -440}
+      - {x: -1090, y: -478}
+      - {x: -1104, y: -502}
+      - {x: -1116, y: -526}
+      - {x: -1120, y: -556}
+      - {x: -1120, y: -594}
+      - {x: -1112, y: -634}
+      - {x: -1090, y: -666}
+      - {x: -1058, y: -696}
+      - {x: -1030, y: -712}
+      - {x: -998, y: -720}
+      - {x: -940, y: -720}
+      - {x: -918, y: -714}
+      - {x: -872, y: -686}
+      - {x: -844, y: -654}
+    - - {x: -1724, y: -608}
+      - {x: -1722, y: -582}
+      - {x: -1722, y: -560}
+      - {x: -1724, y: -542}
+      - {x: -1738, y: -510}
+      - {x: -1766, y: -476}
+      - {x: -1808, y: -452}
+      - {x: -1874, y: -452}
+      - {x: -1912, y: -466}
+      - {x: -1948, y: -498}
+      - {x: -1970, y: -542}
+      - {x: -1972, y: -550}
+      - {x: -1972, y: -590}
+      - {x: -1970, y: -610}
+      - {x: -1956, y: -642}
+      - {x: -1926, y: -676}
+      - {x: -1896, y: -694}
+      - {x: -1872, y: -700}
+      - {x: -1824, y: -700}
+      - {x: -1798, y: -694}
+      - {x: -1768, y: -676}
+      - {x: -1740, y: -642}
+    - - {x: -1138, y: -610}
+      - {x: -1136, y: -602}
+      - {x: -1136, y: -556}
+      - {x: -1138, y: -540}
+      - {x: -1150, y: -512}
+      - {x: -1184, y: -474}
+      - {x: -1228, y: -452}
+      - {x: -1286, y: -452}
+      - {x: -1314, y: -460}
+      - {x: -1342, y: -478}
+      - {x: -1372, y: -514}
+      - {x: -1384, y: -540}
+      - {x: -1384, y: -608}
+      - {x: -1380, y: -626}
+      - {x: -1344, y: -676}
+      - {x: -1314, y: -692}
+      - {x: -1280, y: -700}
+      - {x: -1240, y: -700}
+      - {x: -1212, y: -694}
+      - {x: -1184, y: -678}
+      - {x: -1150, y: -640}
+    - - {x: -476, y: -548}
+      - {x: -490, y: -506}
+      - {x: -530, y: -468}
+      - {x: -562, y: -452}
+      - {x: -630, y: -452}
+      - {x: -676, y: -470}
+      - {x: -706, y: -500}
+      - {x: -724, y: -546}
+      - {x: -724, y: -624}
+      - {x: -678, y: -684}
+      - {x: -656, y: -688}
+      - {x: -636, y: -696}
+      - {x: -618, y: -700}
+      - {x: -570, y: -700}
+      - {x: -524, y: -684}
+      - {x: -490, y: -646}
+      - {x: -476, y: -604}
+    - - {x: 106, y: -610}
+      - {x: 108, y: -602}
+      - {x: 108, y: -542}
+      - {x: 84, y: -498}
+      - {x: 48, y: -466}
+      - {x: 20, y: -454}
+      - {x: 8, y: -452}
+      - {x: -46, y: -452}
+      - {x: -84, y: -464}
+      - {x: -126, y: -510}
+      - {x: -140, y: -542}
+      - {x: -142, y: -582}
+      - {x: -142, y: -600}
+      - {x: -136, y: -622}
+      - {x: -114, y: -656}
+      - {x: -96, y: -676}
+      - {x: -54, y: -700}
+      - {x: 12, y: -700}
+      - {x: 48, y: -686}
+      - {x: 62, y: -674}
+      - {x: 92, y: -642}
+    - - {x: -1400, y: 586}
+      - {x: -1468, y: 708}
+      - {x: -1510, y: 784}
+      - {x: -1532, y: 820}
+      - {x: -1566, y: 820}
+      - {x: -1582, y: 798}
+      - {x: -1606, y: 752}
+      - {x: -1648, y: 676}
+      - {x: -1698, y: 588}
+      - {x: -1698, y: 576}
+      - {x: -1696, y: 570}
+      - {x: -1684, y: 562}
+      - {x: -1414, y: 562}
+      - {x: -1408, y: 564}
+      - {x: -1400, y: 574}
+    - - {x: -820, y: 600}
+      - {x: -856, y: 664}
+      - {x: -898, y: 742}
+      - {x: -938, y: 810}
+      - {x: -944, y: 820}
+      - {x: -972, y: 820}
+      - {x: -980, y: 812}
+      - {x: -1008, y: 762}
+      - {x: -1056, y: 676}
+      - {x: -1104, y: 588}
+      - {x: -1104, y: 580}
+      - {x: -1102, y: 574}
+      - {x: -1090, y: 564}
+      - {x: -826, y: 564}
+      - {x: -814, y: 574}
+      - {x: -812, y: 580}
+      - {x: -812, y: 586}
+    - - {x: -190, y: 600}
+      - {x: -292, y: 784}
+      - {x: -306, y: 808}
+      - {x: -314, y: 816}
+      - {x: -344, y: 816}
+      - {x: -350, y: 812}
+      - {x: -434, y: 666}
+      - {x: -474, y: 588}
+      - {x: -474, y: 578}
+      - {x: -460, y: 564}
+      - {x: -188, y: 564}
+      - {x: -184, y: 576}
+      - {x: -184, y: 594}
+    - - {x: 370, y: 634}
+      - {x: 292, y: 774}
+      - {x: 274, y: 806}
+      - {x: 264, y: 816}
+      - {x: 258, y: 818}
+      - {x: 232, y: 818}
+      - {x: 226, y: 816}
+      - {x: 206, y: 776}
+      - {x: 102, y: 588}
+      - {x: 102, y: 578}
+      - {x: 114, y: 564}
+      - {x: 384, y: 564}
+      - {x: 396, y: 576}
+      - {x: 396, y: 584}
+      - {x: 382, y: 612}
+    - - {x: -1818, y: 800}
+      - {x: -1838, y: 814}
+      - {x: -1848, y: 814}
+      - {x: -1854, y: 808}
+      - {x: -1876, y: 770}
+      - {x: -1970, y: 600}
+      - {x: -1970, y: 590}
+      - {x: -1958, y: 576}
+      - {x: -1724, y: 576}
+      - {x: -1712, y: 584}
+      - {x: -1712, y: 598}
+      - {x: -1742, y: 658}
+    - - {x: -1220, y: 798}
+      - {x: -1228, y: 810}
+      - {x: -1242, y: 814}
+      - {x: -1252, y: 808}
+      - {x: -1294, y: 734}
+      - {x: -1368, y: 598}
+      - {x: -1368, y: 590}
+      - {x: -1356, y: 576}
+      - {x: -1122, y: 576}
+      - {x: -1110, y: 584}
+      - {x: -1110, y: 600}
+    - - {x: -496, y: 628}
+      - {x: -548, y: 726}
+      - {x: -590, y: 798}
+      - {x: -598, y: 810}
+      - {x: -610, y: 814}
+      - {x: -618, y: 814}
+      - {x: -628, y: 800}
+      - {x: -722, y: 630}
+      - {x: -738, y: 598}
+      - {x: -738, y: 590}
+      - {x: -726, y: 576}
+      - {x: -492, y: 576}
+      - {x: -480, y: 588}
+      - {x: -480, y: 600}
+    - - {x: 82, y: 628}
+      - {x: -2, y: 780}
+      - {x: -20, y: 810}
+      - {x: -30, y: 814}
+      - {x: -36, y: 814}
+      - {x: -48, y: 806}
+      - {x: -126, y: 666}
+      - {x: -160, y: 600}
+      - {x: -160, y: 590}
+      - {x: -148, y: 576}
+      - {x: 86, y: 576}
+      - {x: 98, y: 588}
+      - {x: 98, y: 600}
+    - - {x: 602, y: 846}
+      - {x: 596, y: 840}
+      - {x: 598, y: 834}
+      - {x: 606, y: 834}
+      - {x: 610, y: 838}
+      - {x: 610, y: 842}
+      - {x: 606, y: 846}
+    - - {x: -646, y: 842}
+      - {x: -644, y: 836}
+      - {x: -638, y: 836}
+      - {x: -634, y: 840}
+      - {x: -636, y: 846}
+      - {x: -642, y: 846}
+    - - {x: 602, y: 1390}
+      - {x: 596, y: 1384}
+      - {x: 596, y: 1380}
+      - {x: 600, y: 1376}
+      - {x: 604, y: 1376}
+      - {x: 610, y: 1382}
+      - {x: 610, y: 1386}
+      - {x: 606, y: 1390}
+    - - {x: 600, y: 1682}
+      - {x: 596, y: 1678}
+      - {x: 596, y: 1674}
+      - {x: 600, y: 1670}
+      - {x: 606, y: 1670}
+      - {x: 610, y: 1674}
+      - {x: 610, y: 1678}
+      - {x: 606, y: 1682}
+    - - {x: -494, y: 1998}
+      - {x: -494, y: 1754}
+      - {x: -264, y: 1754}
+      - {x: -252, y: 1764}
+      - {x: -252, y: 1990}
+      - {x: -258, y: 1998}
+    - - {x: -1080, y: 1990}
+      - {x: -1086, y: 1986}
+      - {x: -1086, y: 1758}
+      - {x: -854, y: 1758}
+      - {x: -854, y: 1982}
+      - {x: -862, y: 1990}
+    - - {x: 150, y: 1992}
+      - {x: 150, y: 1758}
+      - {x: 376, y: 1758}
+      - {x: 386, y: 1766}
+      - {x: 386, y: 1992}
+    - - {x: -1682, y: 1986}
+      - {x: -1682, y: 1762}
+      - {x: -1464, y: 1762}
+      - {x: -1458, y: 1764}
+      - {x: -1458, y: 1986}
+    - - {x: -1934, y: 1770}
+      - {x: -1738, y: 1770}
+      - {x: -1738, y: 1968}
+      - {x: -1936, y: 1968}
+      - {x: -1936, y: 1778}
+    - - {x: -1140, y: 1968}
+      - {x: -1332, y: 1968}
+      - {x: -1332, y: 1770}
+      - {x: -1144, y: 1770}
+      - {x: -1134, y: 1778}
+      - {x: -1134, y: 1960}
+    - - {x: -726, y: 1968}
+      - {x: -730, y: 1960}
+      - {x: -730, y: 1770}
+      - {x: -532, y: 1770}
+      - {x: -532, y: 1968}
+    - - {x: -94, y: 1968}
+      - {x: -94, y: 1770}
+      - {x: 102, y: 1770}
+      - {x: 104, y: 1778}
+      - {x: 104, y: 1968}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -20,14 +20,6 @@ public class Block : MonoBehaviour
     void Update()
     {
         transform.position += Vector3.left * Time.deltaTime * 4f / 15f * Character.Instance.Bpm;
-        if (!_onScreen && transform.position.x < 32.5f)
-        {
-            MaskManager.Instance.Subscribe(this);
-        }
-        else if (_onScreen && transform.position.x < -32.5f)
-        {
-            MaskManager.Instance.Subscribe(this);
-        }
 
         if (transform.position.x < _left + Character.Instance.transform.position.x && !_active)
         {
@@ -35,15 +27,5 @@ public class Block : MonoBehaviour
             _active = true;
         }
     }
-
-    public void SetLayers(int graphLayer, int maskLayer)
-    {
-        _graph.sortingOrder = graphLayer;
-        foreach (var m in _masks)
-        {
-            m.sortingOrder = maskLayer;
-        }
-    }
-
 
 }
