@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using DG.Tweening;
 
 
@@ -40,6 +41,8 @@ public class Character : MonoBehaviour
     public float Amplitude = 3;
     public AnimationCurve SquareCurve;
     public RippleEffect Effect;
+    public Image Center, Right, Left;
+    public Sprite Sin, Square, Lin;
     private float _timeBeforeNextWindow;
     private WaveShape _nextShape;
     private Rythm _note, _actualNote;
@@ -48,6 +51,8 @@ public class Character : MonoBehaviour
     private float _direction = 1.0f;
     private Checkpoint _activeCheckpoint;
     private static Character _instance;
+    private bool _alive = true;
+    private bool _Tl, _Tr;
 
     /// <summary>
     /// Awake is called when the script instance is being loaded.
@@ -63,9 +68,11 @@ public class Character : MonoBehaviour
     void Start()
     {
         _timeBeforeNextWindow = 30f / Bpm;
-        _nextShape = WaveShape.Linear;
+        _nextShape = WaveShape.Sin;
         _actualNote = Rythm.Neutral;
         _activeCheckpoint = CheckpointsManager.Instance.Pop();
+        _Tr = false;
+        _Tl = false;
     }
 
     // Update is called once per frame
@@ -138,8 +145,11 @@ public class Character : MonoBehaviour
                         _activeCheckpoint = p;
                 }
             }
-            else
+            else if (_alive)
             {
+                _alive = false;
+                Debug.Log("caca");
+                DeathManager.Instance.Death();
                 for (int i = 0; i < 4; i++)
                 {
                     var t = transform.GetChild(i);
@@ -150,17 +160,67 @@ public class Character : MonoBehaviour
 
         }
 
-        if (Input.GetAxis("Sin") < 0)
+        if (Input.GetAxis("ShapeR") > 0 && !_Tl)
         {
-            _nextShape = WaveShape.Sin;
+            _Tl = true;
+            switch (_nextShape)
+            {
+                case WaveShape.Linear:
+                    _nextShape = WaveShape.Square;
+                    Center.sprite = Square;
+                    Right.sprite = Sin;
+                    Left.sprite = Lin;
+                    break;
+                case WaveShape.Sin:
+                    _nextShape = WaveShape.Linear;
+                    Center.sprite = Lin;
+                    Right.sprite = Square;
+                    Left.sprite = Sin;
+                    break;
+                case WaveShape.Square:
+                    _nextShape = WaveShape.Sin;
+                    Center.sprite = Sin;
+                    Right.sprite = Lin;
+                    Left.sprite = Square;
+                    break;
+                default:
+                    break;
+            }
         }
-        else if (Input.GetAxis("Shape") > 0)
+        else if (Input.GetAxis("ShapeR") <= 0)
         {
-            _nextShape = WaveShape.Linear;
+            _Tl = false;
         }
-        else if (Input.GetAxis("Shape") < 0)
+        if (Input.GetAxis("ShapeL") > 0 && !_Tr)
         {
-            _nextShape = WaveShape.Square;
+            _Tr = true;
+            switch (_nextShape)
+            {
+                case WaveShape.Linear:
+                    _nextShape = WaveShape.Sin;
+                    Center.sprite = Sin;
+                    Right.sprite = Lin;
+                    Left.sprite = Square;
+                    break;
+                case WaveShape.Sin:
+                    _nextShape = WaveShape.Square;
+                    Center.sprite = Square;
+                    Right.sprite = Sin;
+                    Left.sprite = Lin;
+                    break;
+                case WaveShape.Square:
+                    _nextShape = WaveShape.Linear;
+                    Center.sprite = Lin;
+                    Right.sprite = Square;
+                    Left.sprite = Sin;
+                    break;
+                default:
+                    break;
+            }
+        }
+        else if (Input.GetAxis("ShapeL") <= 0)
+        {
+            _Tr = false;
         }
 
 

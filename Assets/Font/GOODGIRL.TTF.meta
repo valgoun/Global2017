@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 89d1fbce15128e04a941ab20c9f557de
+timeCreated: 1485082590
+licenseType: Pro
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: GoodGirl
+  fontNames:
+  - GoodGirl
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
