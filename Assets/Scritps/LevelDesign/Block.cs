@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Block : MonoBehaviour
 {
-    private bool _active = false;
+	private bool _active = true;
 
     // Update is called once per frame
     void Update()

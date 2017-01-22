@@ -34,8 +34,7 @@ GameObject:
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 4727918545739980}
-  - component: {fileID: 212757914667722336}
+  - component: {fileID: 4751261455894074}
   m_Layer: 0
   m_Name: asset bouton b_48
   m_TagString: Untagged
@@ -166,6 +165,19 @@ Transform:
   m_Father: {fileID: 4002997950410170}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4751261455894074
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1205287953461790}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4955130767424706
 Transform:
   m_ObjectHideFlags: 1
@@ -265,9 +277,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: afbf196c2bf91664bb99a487682d992d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _masks:
-  - {fileID: 333883311639779674}
-  _graph: {fileID: 212882391992658546}
 --- !u!212 &212828656697713604
 SpriteRenderer:
   m_ObjectHideFlags: 1
