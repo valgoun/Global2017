@@ -12,6 +12,7 @@ public class CheckpointsManager : MonoBehaviour
         }
     }
 
+    public GameObject Level;
     private static CheckpointsManager _instance;
     public List<Checkpoint> _points;
 
@@ -30,24 +31,21 @@ public class CheckpointsManager : MonoBehaviour
 
 
     }
-    public void addCheckPoint(Checkpoint cp)
+
+    /// <summary>
+    /// Start is called on the frame when a script is enabled just before
+    /// any of the Update methods is called the first time.
+    /// </summary>
+    void Start()
     {
-        return;
-        if (_points == null)
+        var Cps = Level.GetComponentsInChildren<Checkpoint>();
+        _points = new List<Checkpoint>(Cps);
+        /*for (int i = 0; i < Cps.Length; i++)
         {
-            _points = new List<Checkpoint>();
-            _points.Add(cp);
-            return;
-        }
-        for (int i = 0; i < _points.Count; i++)
-        {
-            var p = _points[i];
-            if (cp.transform.position.x < p.transform.position.x)
-            {
-                _points.Insert(i, cp);
-                break;
-            }
-        }
+            var cp = Cps[i];
+            int index = _points.FindIndex((p) => p.transform.position.x <= cp.transform.position.x);
+            _points.Insert(index, cp);
+        }*/
     }
 
     public Checkpoint Pop()
@@ -58,6 +56,7 @@ public class CheckpointsManager : MonoBehaviour
         else
             return null;
         _points.Remove(p);
+        _points.Add(p);
         return p;
     }
 }

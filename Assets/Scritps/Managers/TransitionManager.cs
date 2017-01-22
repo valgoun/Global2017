@@ -19,7 +19,7 @@ public class TransitionManager : MonoBehaviour
     public GameObject NeutralFG, PurpleFG;
     public Image WhiteScreen;
     public Transform Camera;
-    public AudioSource BlueMusic, RedMusic, PurpleMusic, GreenMusic, Poow;
+    public AudioSource BlueMusic, RedMusic, PurpleMusic, GreenMusic, MenuOst, Poow;
     public AudioClip PowClip;
     private static TransitionManager _instance;
 
@@ -31,7 +31,7 @@ public class TransitionManager : MonoBehaviour
         if (_instance == null)
             _instance = this;
 
-        _current = BlueMusic;
+        _current = MenuOst;
     }
 
 

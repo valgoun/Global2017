@@ -11,6 +11,6 @@ public class Checkpoint : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        CheckpointsManager.Instance.addCheckPoint(this);
+
     }
 }

@@ -43,6 +43,7 @@ public class Character : MonoBehaviour
     public RippleEffect Effect;
     public Image Center, Right, Left;
     public Sprite Sin, Square, Lin;
+    public AudioClip Death;
     private float _timeBeforeNextWindow;
     private WaveShape _nextShape;
     private Rythm _note, _actualNote;
@@ -53,6 +54,7 @@ public class Character : MonoBehaviour
     private static Character _instance;
     private bool _alive = true;
     private bool _Tl, _Tr;
+    private AudioSource _source;
 
     /// <summary>
     /// Awake is called when the script instance is being loaded.
@@ -73,6 +75,7 @@ public class Character : MonoBehaviour
         _activeCheckpoint = CheckpointsManager.Instance.Pop();
         _Tr = false;
         _Tl = false;
+        _source = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -150,6 +153,7 @@ public class Character : MonoBehaviour
                 _alive = false;
                 Debug.Log("caca");
                 DeathManager.Instance.Death();
+                _source.PlayOneShot(Death);
                 for (int i = 0; i < 4; i++)
                 {
                     var t = transform.GetChild(i);

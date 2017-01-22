@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 696e848f0d0b7d34aacab30436e0d358
-timeCreated: 1485057421
+timeCreated: 1485091513
 licenseType: Pro
 TextureImporter:
   fileIDToRecycleName:
@@ -72,7 +72,7 @@ TextureImporter:
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spritePixelsToUnits: 72
+  spritePixelsToUnits: 15
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -254,7 +254,7 @@ TextureImporter:
         serializedVersion: 2
         x: 81
         y: 1493
-        width: 283
+        width: 281
         height: 195
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -487,9 +487,9 @@ TextureImporter:
       name: R_5
       rect:
         serializedVersion: 2
-        x: 61
+        x: 62
         y: 812
-        width: 252
+        width: 251
         height: 269
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -554,8 +554,8 @@ TextureImporter:
         serializedVersion: 2
         x: 33
         y: 441
-        width: 473
-        height: 324
+        width: 466
+        height: 322
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -740,9 +740,9 @@ TextureImporter:
       name: R_7
       rect:
         serializedVersion: 2
-        x: 172
+        x: 174
         y: 240
-        width: 200
+        width: 198
         height: 156
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1030,9 +1030,9 @@ TextureImporter:
       name: G_1
       rect:
         serializedVersion: 2
-        x: 549
+        x: 570
         y: 1798
-        width: 339
+        width: 318
         height: 225
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1199,9 +1199,9 @@ TextureImporter:
       name: G_2
       rect:
         serializedVersion: 2
-        x: 557
+        x: 604
         y: 1522
-        width: 330
+        width: 283
         height: 195
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1492,9 +1492,9 @@ TextureImporter:
       name: G_5
       rect:
         serializedVersion: 2
-        x: 578
+        x: 587
         y: 841
-        width: 265
+        width: 251
         height: 269
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1549,10 +1549,10 @@ TextureImporter:
       name: G_6
       rect:
         serializedVersion: 2
-        x: 549
+        x: 551
         y: 470
         width: 473
-        height: 324
+        height: 322
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2068,9 +2068,9 @@ TextureImporter:
       name: P_1
       rect:
         serializedVersion: 2
-        x: 1078
+        x: 1099
         y: 1770
-        width: 339
+        width: 318
         height: 225
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -2237,9 +2237,9 @@ TextureImporter:
       name: P_2
       rect:
         serializedVersion: 2
-        x: 1088
+        x: 1102
         y: 1494
-        width: 320
+        width: 306
         height: 195
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -2538,9 +2538,9 @@ TextureImporter:
       name: P_5
       rect:
         serializedVersion: 2
-        x: 1102
+        x: 1116
         y: 824
-        width: 265
+        width: 251
         height: 258
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -2592,7 +2592,7 @@ TextureImporter:
         x: 1080
         y: 442
         width: 473
-        height: 324
+        height: 322
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3068,9 +3068,9 @@ TextureImporter:
       name: B_1
       rect:
         serializedVersion: 2
-        x: 1573
+        x: 1594
         y: 1770
-        width: 339
+        width: 318
         height: 225
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -3237,9 +3237,9 @@ TextureImporter:
       name: B_2
       rect:
         serializedVersion: 2
-        x: 1581
+        x: 1628
         y: 1494
-        width: 330
+        width: 283
         height: 195
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -3511,9 +3511,9 @@ TextureImporter:
       name: B_5
       rect:
         serializedVersion: 2
-        x: 1603
+        x: 1611
         y: 813
-        width: 259
+        width: 251
         height: 269
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -3833,10 +3833,10 @@ TextureImporter:
       name: B_8
       rect:
         serializedVersion: 2
-        x: 1754
+        x: 1756
         y: 2
-        width: 105
-        height: 117
+        width: 103
+        height: 115
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
