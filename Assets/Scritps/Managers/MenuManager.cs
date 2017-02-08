@@ -15,6 +15,7 @@ public class MenuManager : MonoBehaviour
     public Image Title;
 
     private List<Block> _ld;
+    private bool _isplaying = false;
     // Use this for initialization
     void Start()
     {
@@ -23,9 +24,13 @@ public class MenuManager : MonoBehaviour
 
     public void Play()
     {
-        Title.transform.DOMoveY(900, 0.5f).SetEase(Ease.OutExpo).SetRelative().OnComplete(() => Title.gameObject.SetActive(false));
-        ShapeIndicator.DOMoveY(300, 0.5f).SetEase(Ease.OutExpo).SetRelative();
-        _ld.ForEach((b) => b.activate());
+        if (!_isplaying)
+        {
+            Title.transform.DOMoveY(900, 0.5f).SetEase(Ease.OutExpo).SetRelative().OnComplete(() => Title.gameObject.SetActive(false));
+            ShapeIndicator.DOMoveY(300, 0.5f).SetEase(Ease.OutExpo).SetRelative();
+            _ld.ForEach((b) => b.activate());
+            _isplaying = true;
+        }
     }
 
     public void Quit()
